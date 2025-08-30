@@ -1,0 +1,562 @@
+{
+  "etrade": {
+    "name": "E*TRADE",
+    "type": "investment",
+    "keywords": ["etrade", "e*trade", "portfolio", "securities"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "For the Period (\\w+ \\d+-\\d+, \\d{4})",
+        "description": "Statement period format"
+      },
+      "opening_balance": {
+        "pattern": "Beginning Total Value \\(as of [^)]+\\) \\$?([\\d,]+\\.?\\d*)",
+        "description": "Opening balance at start of period"
+      },
+      "ending_balance": {
+        "pattern": "Ending Total Value \\(as of [^)]+\\) \\$?([\\d,]+\\.?\\d*)",
+        "description": "Ending balance at end of period"
+      },
+      "total_cost_basis": {
+        "pattern": "TOTAL VALUE \\d+\\.?\\d*% \\$?([\\d,]+\\.?\\d*) \\$?([\\d,]+\\.?\\d*) \\$?([-\\d,]+\\.?\\d*)",
+        "group": 1,
+        "description": "Total cost basis from summary section"
+      },
+      "total_market_value": {
+        "pattern": "TOTAL VALUE \\d+\\.?\\d*% \\$?([\\d,]+\\.?\\d*) \\$?([\\d,]+\\.?\\d*) \\$?([-\\d,]+\\.?\\d*)",
+        "group": 2,
+        "description": "Total market value from summary section"
+      },
+      "total_unrealized_gain_loss": {
+        "pattern": "TOTAL VALUE \\d+\\.?\\d*% \\$?([\\d,]+\\.?\\d*) \\$?([\\d,]+\\.?\\d*) \\$?([-\\d,]+\\.?\\d*)",
+        "group": 3,
+        "description": "Total unrealized gain/loss from summary section"
+      },
+      "securities_section": {
+        "header_pattern": "Security Description Quantity Share Price Total Cost Market Value Gain/\\(Loss\\) Est Ann Income Yield %",
+        "end_patterns": ["TOTAL VALUE", "of Holdings"],
+        "description": "Securities section boundaries"
+      },
+      "security_line": {
+        "pattern": "([A-Z\\s&]+)\\s+\\(([A-Z]+)\\)\\s+([\\d,]+\\.?\\d*)\\s+\\$?([\\d,]+\\.?\\d*)\\s+\\$?([\\d,]+\\.?\\d*)\\s+\\$?([\\d,]+\\.?\\d*)\\s+\\$?([-\\d,]+\\.?\\d*)\\s+\\$?([\\d,]+\\.?\\d*)\\s+([\\d,]+\\.?\\d*)",
+        "groups": {
+          "name": 1,
+          "symbol": 2,
+          "quantity": 3,
+          "share_price": 4,
+          "total_cost": 5,
+          "market_value": 6,
+          "unrealized_gain_loss": 7,
+          "income": 8,
+          "yield": 9
+        },
+        "description": "Individual security line format"
+      }
+    }
+  },
+  "fidelity": {
+    "name": "Fidelity",
+    "type": "investment",
+    "keywords": ["fidelity", "portfolio", "securities", "holdings"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "Statement Date[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Statement date format"
+      },
+      "opening_balance": {
+        "pattern": "Beginning Balance[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Opening balance at start of period"
+      },
+      "ending_balance": {
+        "pattern": "Ending Balance[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Ending balance at end of period"
+      },
+      "total_market_value": {
+        "pattern": "Total Market Value[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Total market value"
+      },
+      "securities_section": {
+        "header_pattern": "Symbol|Security|Holdings|Positions",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Securities section boundaries"
+      }
+    }
+  },
+  "vanguard": {
+    "name": "Vanguard",
+    "type": "investment",
+    "keywords": ["vanguard", "portfolio", "fund", "holdings"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "Statement Date[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Statement date format"
+      },
+      "opening_balance": {
+        "pattern": "Beginning Value[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Opening balance at start of period"
+      },
+      "ending_balance": {
+        "pattern": "Ending Value[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Ending balance at end of period"
+      },
+      "securities_section": {
+        "header_pattern": "Fund|Security|Holdings",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Securities section boundaries"
+      }
+    }
+  },
+  "chase_credit": {
+    "name": "Chase Credit Card",
+    "type": "credit_card",
+    "keywords": [
+      "chase",
+      "credit card",
+      "chase freedom",
+      "chase sapphire",
+      "chase slate"
+    ],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Individual transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Fees and interest charges section"
+      }
+    }
+  },
+  "chase_bank": {
+    "name": "Chase Bank",
+    "type": "banking",
+    "keywords": ["chase", "bank", "account", "statement"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "Statement Period[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Statement period format"
+      },
+      "opening_balance": {
+        "pattern": "Beginning Balance[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Opening balance at start of period"
+      },
+      "ending_balance": {
+        "pattern": "Ending Balance[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Ending balance at end of period"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Balance",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Transactions section boundaries"
+      }
+    }
+  },
+  "bank_of_america": {
+    "name": "Bank of America",
+    "type": "banking",
+    "keywords": ["bank of america", "bofa", "bank", "account"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "Statement Date[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Statement date format"
+      },
+      "opening_balance": {
+        "pattern": "Previous Balance[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Previous balance at start of period"
+      },
+      "ending_balance": {
+        "pattern": "New Balance[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "New balance at end of period"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Debits|Credits|Balance",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Transactions section boundaries"
+      }
+    }
+  },
+  "generic_investment": {
+    "name": "Generic Investment Statement",
+    "type": "investment",
+    "keywords": [
+      "portfolio",
+      "securities",
+      "holdings",
+      "investment",
+      "brokerage",
+      "401k",
+      "ira",
+      "mutual fund",
+      "stock",
+      "bond"
+    ],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Date|Period|As of|For the period)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Generic date pattern"
+      },
+      "opening_balance": {
+        "pattern": "(?:Beginning|Opening|Starting|Previous|Prior)[\\s\\w]*[Bb]alance[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic opening balance pattern"
+      },
+      "ending_balance": {
+        "pattern": "(?:Ending|Closing|Current|New|Present)[\\s\\w]*[Bb]alance[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic ending balance pattern"
+      },
+      "total_market_value": {
+        "pattern": "(?:Total|Current|Present)[\\s\\w]*[Mm]arket[\\s\\w]*[Vv]alue[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic market value pattern"
+      },
+      "total_cost_basis": {
+        "pattern": "(?:Total|Current|Present)[\\s\\w]*[Cc]ost[\\s\\w]*[Bb]asis[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic cost basis pattern"
+      },
+      "period_gain_loss": {
+        "pattern": "(?:Period|Total|Net|Realized|Unrealized)[\\s\\w]*[Gg]ain[\\s\\w]*[Ll]oss[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic gain/loss pattern"
+      }
+    }
+  },
+  "wells_fargo": {
+    "name": "Wells Fargo",
+    "type": "banking",
+    "keywords": ["wells fargo", "wells", "bank", "account"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "Statement Date[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Statement date format"
+      },
+      "opening_balance": {
+        "pattern": "Previous Balance[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Previous balance at start of period"
+      },
+      "ending_balance": {
+        "pattern": "New Balance[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "New balance at end of period"
+      }
+    }
+  },
+  "schwab": {
+    "name": "Charles Schwab",
+    "type": "investment",
+    "keywords": ["schwab", "charles schwab", "portfolio", "securities"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "Statement Date[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Statement date format"
+      },
+      "opening_balance": {
+        "pattern": "Beginning Value[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Opening balance at start of period"
+      },
+      "ending_balance": {
+        "pattern": "Ending Value[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Ending balance at end of period"
+      },
+      "total_market_value": {
+        "pattern": "Total Market Value[:\\s]*\\$?([\\d,]+\\.?\\d*)",
+        "description": "Total market value"
+      }
+    }
+  },
+  "citi_credit": {
+    "name": "Citi Credit Card",
+    "type": "credit_card",
+    "keywords": [
+      "citi",
+      "citibank",
+      "credit card",
+      "citi double cash",
+      "citi premier"
+    ],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Individual transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Fees and interest charges section"
+      }
+    }
+  },
+  "fsu_credit_union": {
+    "name": "FSU Credit Union",
+    "type": "credit_card",
+    "keywords": ["fsu", "credit union", "fsu credit union", "florida state"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Individual transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Fees and interest charges section"
+      }
+    }
+  },
+  "amex_credit": {
+    "name": "American Express",
+    "type": "credit_card",
+    "keywords": [
+      "amex",
+      "american express",
+      "credit card",
+      "platinum",
+      "gold",
+      "green"
+    ],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Individual transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Fees and interest charges section"
+      }
+    }
+  },
+  "generic_credit_card": {
+    "name": "Generic Credit Card Statement",
+    "type": "credit_card",
+    "keywords": [
+      "credit card",
+      "credit",
+      "card",
+      "statement",
+      "billing",
+      "payment"
+    ],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date|Billing Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Generic credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due|Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Generic payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance|Prior Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due|Balance Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due|Minimum Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line|Line of Credit)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount|Available)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference|Merchant",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest",
+          "Account Summary"
+        ],
+        "description": "Generic credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Generic transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges|Finance Charges",
+        "end_patterns": ["Total", "Summary", "Account Summary"],
+        "description": "Fees and interest charges section"
+      }
+    }
+  }
+}

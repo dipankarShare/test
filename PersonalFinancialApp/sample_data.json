@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2024-01-15",
+    "amount": -45.67,
+    "description": "Grocery Store Purchase",
+    "note": "Weekly groceries at Whole Foods"
+  },
+  {
+    "date": "2024-01-16",
+    "amount": 2500.00,
+    "description": "Salary Deposit",
+    "note": "Monthly salary from ABC Corp"
+  },
+  {
+    "date": "2024-01-17",
+    "amount": -89.99,
+    "description": "Gas Station",
+    "note": "Shell gas station on Main St"
+  },
+  {
+    "date": "2024-01-18",
+    "amount": -12.50,
+    "description": "Coffee Shop",
+    "note": "Morning coffee at Starbucks"
+  },
+  {
+    "date": "2024-01-19",
+    "amount": -156.78,
+    "description": "Electric Bill",
+    "note": "Monthly electricity payment"
+  },
+  {
+    "date": "2024-01-20",
+    "amount": -75.00,
+    "description": "Restaurant",
+    "note": "Dinner at Italian Bistro"
+  },
+  {
+    "date": "2024-01-21",
+    "amount": 50.00,
+    "description": "Cash Deposit",
+    "note": "ATM deposit from birthday money"
+  },
+  {
+    "date": "2024-01-22",
+    "amount": -299.99,
+    "description": "Online Shopping",
+    "note": "Amazon purchase - electronics"
+  },
+  {
+    "date": "2024-01-23",
+    "amount": -45.00,
+    "description": "Gym Membership",
+    "note": "Monthly fitness center fee"
+  },
+  {
+    "date": "2024-01-24",
+    "amount": -23.45,
+    "description": "Pharmacy",
+    "note": "Prescription medication"
+  }
+]

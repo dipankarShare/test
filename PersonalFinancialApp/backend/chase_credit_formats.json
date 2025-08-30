@@ -1,0 +1,114 @@
+{
+  "chase_credit": {
+    "name": "Chase Credit Card",
+    "type": "credit_card",
+    "provider": "Chase",
+    "keywords": [
+      "chase",
+      "credit card",
+      "chase freedom",
+      "chase sapphire",
+      "chase slate",
+      "chase united",
+      "chase amazon",
+      "chase freedom unlimited",
+      "freedom unlimited"
+    ],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Billing Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Statement date"
+      },
+      "payment_due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "new_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "New Balance (current statement balance)"
+      },
+      "minimum_payment_due": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum Payment Due amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference",
+        "start_patterns": [
+          "PURCHASE TRANSACTIONS",
+          "PURCHASES",
+          "ACCOUNT ACTIVITY - PURCHASES",
+          "TRANSACTIONS",
+          "PURCHASE ACTIVITY",
+          "PURCHASE TRANSACTIONS",
+          "TRANSACTIONS",
+          "ACCOUNT ACTIVITY",
+          "PURCHASE DETAILS"
+        ],
+        "end_patterns": [
+          "Total Purchases",
+          "Total Transactions",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest",
+          "Interest Charge Calculation",
+          "Year-to-Date",
+          "2025 Totals",
+          "ACCOUNT SUMMARY",
+          "Credit Access Line",
+          "PURCHASE SUMMARY",
+          "TRANSACTION SUMMARY"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2})\\s+(.+?)\\s+([A-Z]{2})\\s+([-]?\\$?[\\d,]+\\.?\\d*)$",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "location": 3,
+          "amount": 4
+        },
+        "description": "Individual transaction line format with location"
+      },
+      "alternative_transaction_patterns": [
+        {
+          "pattern": "(\\d{1,2}[/-]\\d{1,2})\\s+(.+?)\\s+([A-Z]{2})\\s+([-]?[\\d,]+\\.?\\d*)",
+          "groups": {
+            "date": 1,
+            "description": 2,
+            "location": 3,
+            "amount": 4
+          }
+        },
+        {
+          "pattern": "(\\d{1,2}[/-]\\d{1,2})\\s+(.+?)\\s+([-]?[\\d,]+\\.?\\d*)$",
+          "groups": {
+            "date": 1,
+            "description": 2,
+            "amount": 3
+          }
+        },
+        {
+          "pattern": "(\\d{1,2}[/-]\\d{1,2})\\s+(.+?)\\s+([-]?\\$?[\\d,]+\\.?\\d*)",
+          "groups": {
+            "date": 1,
+            "description": 2,
+            "amount": 3
+          }
+        }
+      ]
+    },
+    "required_fields": [
+      "statement_date",
+      "payment_due_date",
+      "new_balance",
+      "minimum_payment_due"
+    ],
+    "import_fields": ["date", "description", "amount"],
+    "balance_logic": {
+      "negative_amounts": "expenses/charges",
+      "positive_amounts": "payments/credits",
+      "balance_owed": "negative_balance"
+    }
+  }
+}

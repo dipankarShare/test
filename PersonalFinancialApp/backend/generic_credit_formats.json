@@ -1,0 +1,89 @@
+{
+  "generic_credit_card": {
+    "name": "Generic Credit Card Statement",
+    "type": "credit_card",
+    "provider": "Generic",
+    "keywords": ["credit card", "credit", "card", "statement"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Billing Date|Statement)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Statement date"
+      },
+      "payment_due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due|Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "new_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due|Balance Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "New Balance (current statement balance)"
+      },
+      "minimum_payment_due": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due|Minimum Due|Minimum)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum Payment Due amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference|Merchant",
+        "start_patterns": [
+          "Transactions",
+          "Purchases",
+          "Activity",
+          "Charges",
+          "Account Activity",
+          "Purchases and Adjustments"
+        ],
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest",
+          "Interest Charge Calculation",
+          "Account Summary"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Individual transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges",
+        "start_patterns": [
+          "Fees and Interest",
+          "Interest Charge Calculation",
+          "Interest Charges",
+          "Fees"
+        ],
+        "end_patterns": ["Total", "Summary", "Account Summary"],
+        "description": "Fees and interest charges section"
+      },
+      "payment_section": {
+        "header_pattern": "Payment|Credit|Refund",
+        "start_patterns": [
+          "Payments and Credits",
+          "Credits",
+          "Payments",
+          "Credits and Payments"
+        ],
+        "end_patterns": ["Total", "Summary", "Transactions", "Account Summary"],
+        "description": "Payments and credits section"
+      }
+    },
+    "required_fields": [
+      "statement_date",
+      "payment_due_date",
+      "new_balance",
+      "minimum_payment_due"
+    ],
+    "import_fields": ["date", "description", "amount"],
+    "balance_logic": {
+      "negative_amounts": "expenses/charges",
+      "positive_amounts": "payments/credits",
+      "balance_owed": "negative_balance"
+    }
+  }
+}

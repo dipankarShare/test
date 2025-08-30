@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+python-multipart
+PyPDF2
+pdfplumber
+tabula-py
+openpyxl
+requests

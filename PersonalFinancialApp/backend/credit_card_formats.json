@@ -1,0 +1,383 @@
+{
+  "chase_credit": {
+    "name": "Chase Credit Card",
+    "type": "credit_card",
+    "keywords": [
+      "chase",
+      "credit card",
+      "chase freedom",
+      "chase sapphire",
+      "chase slate"
+    ],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Individual transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Fees and interest charges section"
+      }
+    }
+  },
+  "citi_credit": {
+    "name": "Citi Credit Card",
+    "type": "credit_card",
+    "keywords": [
+      "citi",
+      "citibank",
+      "credit card",
+      "citi double cash",
+      "citi premier"
+    ],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Individual transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Fees and interest charges section"
+      }
+    }
+  },
+  "fsu_credit_union": {
+    "name": "FSU Credit Union",
+    "type": "credit_card",
+    "keywords": ["fsu", "credit union", "fsu credit union", "florida state"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Individual transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Fees and interest charges section"
+      }
+    }
+  },
+  "amex_credit": {
+    "name": "American Express",
+    "type": "credit_card",
+    "keywords": [
+      "amex",
+      "american express",
+      "credit card",
+      "platinum",
+      "gold",
+      "green"
+    ],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Individual transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Fees and interest charges section"
+      }
+    }
+  },
+  "discover_credit": {
+    "name": "Discover Credit Card",
+    "type": "credit_card",
+    "keywords": ["discover", "credit card", "discover it", "discover more"],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest"
+        ],
+        "description": "Credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Individual transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges",
+        "end_patterns": ["Total", "Summary"],
+        "description": "Fees and interest charges section"
+      }
+    }
+  },
+  "generic_credit_card": {
+    "name": "Generic Credit Card Statement",
+    "type": "credit_card",
+    "keywords": [
+      "credit card",
+      "credit",
+      "card",
+      "statement",
+      "billing",
+      "payment"
+    ],
+    "patterns": {
+      "statement_date": {
+        "pattern": "(?:Statement Date|Closing Date|Date|Billing Date)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Generic credit card statement date"
+      },
+      "due_date": {
+        "pattern": "(?:Payment Due Date|Due Date|Payment Due|Due)[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "description": "Generic payment due date"
+      },
+      "opening_balance": {
+        "pattern": "(?:Previous Balance|Previous Statement Balance|Beginning Balance|Prior Balance)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic previous statement balance"
+      },
+      "ending_balance": {
+        "pattern": "(?:New Balance|Current Balance|Statement Balance|Total Amount Due|Balance Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic current statement balance"
+      },
+      "minimum_payment": {
+        "pattern": "(?:Minimum Payment|Minimum Payment Due|Minimum Due)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic minimum payment amount"
+      },
+      "credit_limit": {
+        "pattern": "(?:Credit Limit|Available Credit|Credit Line|Line of Credit)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic credit limit amount"
+      },
+      "available_credit": {
+        "pattern": "(?:Available Credit|Available Amount|Available)[:\\s]*\\$?([-\\d,]+\\.?\\d*)",
+        "description": "Generic available credit amount"
+      },
+      "transactions_section": {
+        "header_pattern": "Date|Description|Amount|Category|Reference|Merchant",
+        "end_patterns": [
+          "Total",
+          "Summary",
+          "Payment Information",
+          "Fees and Interest",
+          "Account Summary"
+        ],
+        "description": "Generic credit card transactions section"
+      },
+      "transaction_line": {
+        "pattern": "(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\s+([^\\$]+?)\\s+\\$?([-\\d,]+\\.?\\d*)",
+        "groups": {
+          "date": 1,
+          "description": 2,
+          "amount": 3
+        },
+        "description": "Generic transaction line format"
+      },
+      "fees_section": {
+        "header_pattern": "Fees|Interest|Charges|Finance Charges",
+        "end_patterns": ["Total", "Summary", "Account Summary"],
+        "description": "Generic fees and interest charges section"
+      }
+    }
+  }
+}

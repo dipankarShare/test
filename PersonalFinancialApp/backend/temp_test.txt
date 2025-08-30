@@ -1,0 +1,18 @@
+
+    PORTFOLIO STATEMENT
+    Statement Date: 12/31/2024
+    
+    Beginning Balance: $100,000.00
+    Period Gain/Loss: $5,250.00
+    Ending Balance: $105,250.00
+    
+    Total Market Value: $105,250.00
+    Total Cost Basis: $100,000.00
+    Total Unrealized Gain/Loss: $5,250.00
+    
+    SECURITIES HOLDINGS
+    Symbol  Security Name    Quantity  Share Price  Total Cost  Market Value  Unrealized G/L
+    AAPL    Apple Inc.       100       150.00       15,000.00   15,000.00     0.00
+    MSFT    Microsoft Corp.  200       200.00       40,000.00   40,000.00     0.00
+    GOOGL   Alphabet Inc.    150       300.00       45,000.00   50,250.00     5,250.00
+    

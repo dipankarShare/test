@@ -1,0 +1,3528 @@
+{
+  "backup_info": {
+    "created_at": "2025-08-24T06:40:39.769182",
+    "bank_name": "WellsFargo",
+    "original_bank_id": 1,
+    "accounts_count": 1,
+    "transactions_count": 350
+  },
+  "bank": {
+    "id": 1,
+    "name": "WellsFargo",
+    "created_at": "2025-08-24 06:03:56",
+    "account_count": 1,
+    "total_balance": 2751.6999999999966
+  },
+  "accounts": [
+    {
+      "id": 1,
+      "bank_id": 1,
+      "name": "PrimeChecking",
+      "account_type": "checking",
+      "balance": 2751.6999999999966,
+      "created_at": "2025-08-24 06:04:12"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "account_id": 1,
+      "date": "12/31/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.02,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"12/31/2024\", \"Amount\": \"0.02\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 2,
+      "account_id": 1,
+      "date": "12/31/2024",
+      "description": "PGANDE WEB ONLINE DEC 24 17123475123024 DIPANKAR BHATTACHARYYA",
+      "amount": -279.41,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"12/31/2024\", \"Amount\": \"-279.41\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE DEC 24 17123475123024 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 3,
+      "account_id": 1,
+      "date": "12/31/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0QSCJV82 EVERYDAY CHECKING TRANSFER DEPOSIT MONEY FROM ARKA",
+      "amount": 190.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"12/31/2024\", \"Amount\": \"190.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0QSCJV82 EVERYDAY CHECKING TRANSFER DEPOSIT MONEY FROM ARKA\"}"
+    },
+    {
+      "id": 4,
+      "account_id": 1,
+      "date": "12/30/2024",
+      "description": "ONLINE TRANSFER TO BHATTACHARYYA D REF #IB0QRTDV88 EVERYDAY CHECKING LAS VEGAS MINUS HALF COSTCO DRINK",
+      "amount": -160.54,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"12/30/2024\", \"Amount\": \"-160.54\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER TO BHATTACHARYYA D REF #IB0QRTDV88 EVERYDAY CHECKING LAS VEGAS MINUS HALF COSTCO DRINK\"}"
+    },
+    {
+      "id": 5,
+      "account_id": 1,
+      "date": "12/30/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0QRFC3CG EVERYDAY CHECKING GARDENBUFFET/BURGERATWHITE CASTLE",
+      "amount": 140.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"12/30/2024\", \"Amount\": \"140.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0QRFC3CG EVERYDAY CHECKING GARDENBUFFET/BURGERATWHITE CASTLE\"}"
+    },
+    {
+      "id": 6,
+      "account_id": 1,
+      "date": "12/23/2024",
+      "description": "CHECK # 156",
+      "amount": -40.0,
+      "note": "156.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"12/23/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"156.0\", \"Description\": \"CHECK # 156\"}"
+    },
+    {
+      "id": 7,
+      "account_id": 1,
+      "date": "12/23/2024",
+      "description": "Cash eWithdrawal in Branch 12/23/2024 13:43 PM 1900 W 11TH ST TRACY CA 9143",
+      "amount": -200.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"12/23/2024\", \"Amount\": \"-200.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"Cash eWithdrawal in Branch 12/23/2024 13:43 PM 1900 W 11TH ST TRACY CA 9143\"}"
+    },
+    {
+      "id": 8,
+      "account_id": 1,
+      "date": "12/20/2024",
+      "description": "CITI AUTOPAY PAYMENT 241219 291570729470010 DIPANKAR BHATTACHARYYA",
+      "amount": -2035.58,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"12/20/2024\", \"Amount\": \"-2035.58\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 241219 291570729470010 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 9,
+      "account_id": 1,
+      "date": "12/20/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D PLATINUM SAVINGS XXXXXX6754 REF #IB0QNQYZRR ON 12/20/24",
+      "amount": 5000.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"12/20/2024\", \"Amount\": \"5000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D PLATINUM SAVINGS XXXXXX6754 REF #IB0QNQYZRR ON 12/20/24\"}"
+    },
+    {
+      "id": 10,
+      "account_id": 1,
+      "date": "12/19/2024",
+      "description": "IIT CITIBANK CITIXFR 241219 IITCITDPNG9X9ED DIPANKAR BHATTACHARY",
+      "amount": -250.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"12/19/2024\", \"Amount\": \"-250.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"IIT CITIBANK CITIXFR 241219 IITCITDPNG9X9ED DIPANKAR BHATTACHARY\"}"
+    },
+    {
+      "id": 11,
+      "account_id": 1,
+      "date": "12/18/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0QMV2V4B EVERYDAY CHECKING GAS",
+      "amount": 20.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"12/18/2024\", \"Amount\": \"20.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0QMV2V4B EVERYDAY CHECKING GAS\"}"
+    },
+    {
+      "id": 12,
+      "account_id": 1,
+      "date": "12/12/2024",
+      "description": "CAPITAL ONE ONLINE PMT 241212 3YQAHF8A4HFGO41 DIPANKAR BHATTACHARYA",
+      "amount": -11.57,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"12/12/2024\", \"Amount\": \"-11.57\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CAPITAL ONE ONLINE PMT 241212 3YQAHF8A4HFGO41 DIPANKAR BHATTACHARYA\"}"
+    },
+    {
+      "id": 13,
+      "account_id": 1,
+      "date": "12/11/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0QKJY3CN ON 12/11/24",
+      "amount": 1000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"12/11/2024\", \"Amount\": \"1000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0QKJY3CN ON 12/11/24\"}"
+    },
+    {
+      "id": 14,
+      "account_id": 1,
+      "date": "12/10/2024",
+      "description": "CITI AUTOPAY PAYMENT 241209 271562097370091 DIPANKAR BHATTACHARYYA",
+      "amount": -2485.81,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"12/10/2024\", \"Amount\": \"-2485.81\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 241209 271562097370091 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 15,
+      "account_id": 1,
+      "date": "12/10/2024",
+      "description": "Cash eWithdrawal in Branch 12/10/2024 14:51 PM 1900 W 11TH ST TRACY CA 9143",
+      "amount": -100.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"12/10/2024\", \"Amount\": \"-100.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"Cash eWithdrawal in Branch 12/10/2024 14:51 PM 1900 W 11TH ST TRACY CA 9143\"}"
+    },
+    {
+      "id": 16,
+      "account_id": 1,
+      "date": "12/10/2024",
+      "description": "eDeposit in Branch 12/10/24 02:50:44 PM 1900 W 11TH ST TRACY CA 9143",
+      "amount": 0.06,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"12/10/2024\", \"Amount\": \"0.06\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"eDeposit in Branch 12/10/24 02:50:44 PM 1900 W 11TH ST TRACY CA 9143\"}"
+    },
+    {
+      "id": 17,
+      "account_id": 1,
+      "date": "12/9/2024",
+      "description": "SG Real Estate WEB PMTS 120924 14HR3C Dipankar Bhattacharyya",
+      "amount": -1400.36,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"12/9/2024\", \"Amount\": \"-1400.36\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 120924 14HR3C Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 18,
+      "account_id": 1,
+      "date": "12/9/2024",
+      "description": "AppFolio, Inc. F WEB PMTS 120924 HX16R4 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"12/9/2024\", \"Amount\": \"-2.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 120924 HX16R4 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 19,
+      "account_id": 1,
+      "date": "12/9/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0QJD867X EVERYDAY CHECKING GEIC0 100 LAS HOTEL 270 HILAND 300 CARB260",
+      "amount": 930.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"12/9/2024\", \"Amount\": \"930.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0QJD867X EVERYDAY CHECKING GEIC0 100 LAS HOTEL 270 HILAND 300 CARB260\"}"
+    },
+    {
+      "id": 20,
+      "account_id": 1,
+      "date": "12/6/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 241205 5482672 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"12/6/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 241205 5482672 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 21,
+      "account_id": 1,
+      "date": "12/5/2024",
+      "description": "CHECK # 1090",
+      "amount": -143.89,
+      "note": "1090.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"12/5/2024\", \"Amount\": \"-143.89\", \"Account\": \"*\", \"Notes\": \"1090.0\", \"Description\": \"CHECK # 1090\"}"
+    },
+    {
+      "id": 22,
+      "account_id": 1,
+      "date": "12/4/2024",
+      "description": "CHECK # 155",
+      "amount": -40.0,
+      "note": "155.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"12/4/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"155.0\", \"Description\": \"CHECK # 155\"}"
+    },
+    {
+      "id": 23,
+      "account_id": 1,
+      "date": "12/2/2024",
+      "description": "PGANDE WEB ONLINE NOV 24 13747036112924 DIPANKAR BHATTACHARYYA",
+      "amount": -154.31,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"12/2/2024\", \"Amount\": \"-154.31\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE NOV 24 13747036112924 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 24,
+      "account_id": 1,
+      "date": "12/2/2024",
+      "description": "CITI CARD ONLINE PAYMENT 241201 431555057867051 DIPANKAR BHATTACHARYYA",
+      "amount": -522.27,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"12/2/2024\", \"Amount\": \"-522.27\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI CARD ONLINE PAYMENT 241201 431555057867051 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 25,
+      "account_id": 1,
+      "date": "12/2/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0QGKGR3D EVERYDAY CHECKING FAMILY MAINTENANCE",
+      "amount": 5000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"12/2/2024\", \"Amount\": \"5000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0QGKGR3D EVERYDAY CHECKING FAMILY MAINTENANCE\"}"
+    },
+    {
+      "id": 26,
+      "account_id": 1,
+      "date": "11/29/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.02,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"11/29/2024\", \"Amount\": \"0.02\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 27,
+      "account_id": 1,
+      "date": "11/20/2024",
+      "description": "CITI AUTOPAY PAYMENT 241119 291544810100080 DIPANKAR BHATTACHARYYA",
+      "amount": -41.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"11/20/2024\", \"Amount\": \"-41.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 241119 291544810100080 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 28,
+      "account_id": 1,
+      "date": "11/18/2024",
+      "description": "CHASE CREDIT CRD EPAY 241116 7961576016 DIPANKAR BHATTACHARYYA",
+      "amount": -55.37,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"11/18/2024\", \"Amount\": \"-55.37\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CHASE CREDIT CRD EPAY 241116 7961576016 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 29,
+      "account_id": 1,
+      "date": "11/18/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0Q9FWS4X EVERYDAY CHECKING SUTTER HEALTH/UCSF/SEND MONEY TO MA",
+      "amount": 220.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"11/18/2024\", \"Amount\": \"220.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0Q9FWS4X EVERYDAY CHECKING SUTTER HEALTH/UCSF/SEND MONEY TO MA\"}"
+    },
+    {
+      "id": 30,
+      "account_id": 1,
+      "date": "11/12/2024",
+      "description": "CITI AUTOPAY PAYMENT 241108 271535307750089 DIPANKAR BHATTACHARYYA",
+      "amount": -837.77,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"11/12/2024\", \"Amount\": \"-837.77\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 241108 271535307750089 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 31,
+      "account_id": 1,
+      "date": "11/12/2024",
+      "description": "CHECK # 154",
+      "amount": -40.0,
+      "note": "154.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"11/12/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"154.0\", \"Description\": \"CHECK # 154\"}"
+    },
+    {
+      "id": 32,
+      "account_id": 1,
+      "date": "11/12/2024",
+      "description": "ONLINE TRANSFER TO BHATTACHARYYA S REF #IB0Q7N7PZ6 EVERYDAY CHECKING HALLOWEEN DRESS RETURN",
+      "amount": -48.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"11/12/2024\", \"Amount\": \"-48.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER TO BHATTACHARYYA S REF #IB0Q7N7PZ6 EVERYDAY CHECKING HALLOWEEN DRESS RETURN\"}"
+    },
+    {
+      "id": 33,
+      "account_id": 1,
+      "date": "11/12/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0Q7VG6RG EVERYDAY CHECKING PRIUS GAS",
+      "amount": 34.54,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"11/12/2024\", \"Amount\": \"34.54\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0Q7VG6RG EVERYDAY CHECKING PRIUS GAS\"}"
+    },
+    {
+      "id": 34,
+      "account_id": 1,
+      "date": "11/6/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 241105 4817670 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"11/6/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 241105 4817670 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 35,
+      "account_id": 1,
+      "date": "11/5/2024",
+      "description": "AppFolio, Inc. F WEB PMTS 110524 W9MCN4 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"11/5/2024\", \"Amount\": \"-2.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 110524 W9MCN4 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 36,
+      "account_id": 1,
+      "date": "11/5/2024",
+      "description": "SG Real Estate WEB PMTS 110524 H0MGYB Dipankar Bhattacharyya",
+      "amount": -1405.2,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"11/5/2024\", \"Amount\": \"-1405.2\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 110524 H0MGYB Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 37,
+      "account_id": 1,
+      "date": "11/5/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0Q5J4D9H EVERYDAY CHECKING PRIUS TIRE",
+      "amount": 400.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"11/5/2024\", \"Amount\": \"400.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0Q5J4D9H EVERYDAY CHECKING PRIUS TIRE\"}"
+    },
+    {
+      "id": 38,
+      "account_id": 1,
+      "date": "11/5/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0Q5J479V EVERYDAY CHECKING CAR INSURANCE",
+      "amount": 200.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"11/5/2024\", \"Amount\": \"200.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0Q5J479V EVERYDAY CHECKING CAR INSURANCE\"}"
+    },
+    {
+      "id": 39,
+      "account_id": 1,
+      "date": "11/5/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0Q5J3KY7 PLATINUM SAVINGS FAMILY MAINT",
+      "amount": 3000.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"11/5/2024\", \"Amount\": \"3000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0Q5J3KY7 PLATINUM SAVINGS FAMILY MAINT\"}"
+    },
+    {
+      "id": 40,
+      "account_id": 1,
+      "date": "11/5/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0Q5J36YV ON 11/05/24",
+      "amount": 1000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"11/5/2024\", \"Amount\": \"1000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0Q5J36YV ON 11/05/24\"}"
+    },
+    {
+      "id": 41,
+      "account_id": 1,
+      "date": "11/4/2024",
+      "description": "CHECK # 1495",
+      "amount": -264.57,
+      "note": "1495.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"11/4/2024\", \"Amount\": \"-264.57\", \"Account\": \"*\", \"Notes\": \"1495.0\", \"Description\": \"CHECK # 1495\"}"
+    },
+    {
+      "id": 42,
+      "account_id": 1,
+      "date": "10/31/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.01,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"10/31/2024\", \"Amount\": \"0.01\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 43,
+      "account_id": 1,
+      "date": "10/30/2024",
+      "description": "PGANDE WEB ONLINE OCT 24 10250985102924 DIPANKAR BHATTACHARYYA",
+      "amount": -81.42,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"10/30/2024\", \"Amount\": \"-81.42\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE OCT 24 10250985102924 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 44,
+      "account_id": 1,
+      "date": "10/30/2024",
+      "description": "WT 241030-189194 TORONTO-DOMINION BA /BNF=E AND H MEHTA CONSULTING INC SRF# 0000506304868666 TRN#241030189194 RFB#",
+      "amount": -2525.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"10/30/2024\", \"Amount\": \"-2525.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"WT 241030-189194 TORONTO-DOMINION BA /BNF=E AND H MEHTA CONSULTING INC SRF# 0000506304868666 TRN#241030189194 RFB#\"}"
+    },
+    {
+      "id": 45,
+      "account_id": 1,
+      "date": "10/30/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0Q38PN8T PLATINUM SAVINGS PAYMENT ARCHIT COUNCELLOR",
+      "amount": 3000.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"10/30/2024\", \"Amount\": \"3000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0Q38PN8T PLATINUM SAVINGS PAYMENT ARCHIT COUNCELLOR\"}"
+    },
+    {
+      "id": 46,
+      "account_id": 1,
+      "date": "10/22/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PYNQ9FV EVERYDAY CHECKING SUSMITA SCHOOL BUY TODAY AMAZON",
+      "amount": 24.86,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"10/22/2024\", \"Amount\": \"24.86\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PYNQ9FV EVERYDAY CHECKING SUSMITA SCHOOL BUY TODAY AMAZON\"}"
+    },
+    {
+      "id": 47,
+      "account_id": 1,
+      "date": "10/21/2024",
+      "description": "CITI AUTOPAY PAYMENT 241018 291517125620137 DIPANKAR BHATTACHARYYA",
+      "amount": -359.87,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"10/21/2024\", \"Amount\": \"-359.87\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 241018 291517125620137 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 48,
+      "account_id": 1,
+      "date": "10/21/2024",
+      "description": "ATM WITHDRAWAL AUTHORIZED ON 10/19 1900 W 11th St Tracy CA 0000470 ATM ID 0575A CARD 9143",
+      "amount": -50.0,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"10/21/2024\", \"Amount\": \"-50.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ATM WITHDRAWAL AUTHORIZED ON 10/19 1900 W 11th St Tracy CA 0000470 ATM ID 0575A CARD 9143\"}"
+    },
+    {
+      "id": 49,
+      "account_id": 1,
+      "date": "10/21/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PYCQ86W EVERYDAY CHECKING UCSF/SUTTERHEALTH",
+      "amount": 200.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"10/21/2024\", \"Amount\": \"200.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PYCQ86W EVERYDAY CHECKING UCSF/SUTTERHEALTH\"}"
+    },
+    {
+      "id": 50,
+      "account_id": 1,
+      "date": "10/15/2024",
+      "description": "CHECK # 153",
+      "amount": -40.0,
+      "note": "153.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"10/15/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"153.0\", \"Description\": \"CHECK # 153\"}"
+    },
+    {
+      "id": 51,
+      "account_id": 1,
+      "date": "10/10/2024",
+      "description": "CITI AUTOPAY PAYMENT 241009 271509352570066 DIPANKAR BHATTACHARYYA",
+      "amount": -2088.19,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"10/10/2024\", \"Amount\": \"-2088.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 241009 271509352570066 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 52,
+      "account_id": 1,
+      "date": "10/10/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PTS9PTY EVERYDAY CHECKING 5000 8000 INDIA",
+      "amount": 155.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"10/10/2024\", \"Amount\": \"155.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PTS9PTY EVERYDAY CHECKING 5000 8000 INDIA\"}"
+    },
+    {
+      "id": 53,
+      "account_id": 1,
+      "date": "10/8/2024",
+      "description": "PGANDE WEB ONLINE OCT 24 07843043100624 DIPANKAR BHATTACHARYYA",
+      "amount": -156.94,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"10/8/2024\", \"Amount\": \"-156.94\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE OCT 24 07843043100624 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 54,
+      "account_id": 1,
+      "date": "10/7/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 241005 4605508 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"10/7/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 241005 4605508 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 55,
+      "account_id": 1,
+      "date": "10/7/2024",
+      "description": "SG Real Estate WEB PMTS 100724 5GG5TB Dipankar Bhattacharyya",
+      "amount": -1407.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"10/7/2024\", \"Amount\": \"-1407.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 100724 5GG5TB Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 56,
+      "account_id": 1,
+      "date": "10/7/2024",
+      "description": "AppFolio, Inc. F WEB PMTS 100724 W0W0L4 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"10/7/2024\", \"Amount\": \"-2.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 100724 W0W0L4 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 57,
+      "account_id": 1,
+      "date": "10/7/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0PSVVRLW PLATINUM SAVINGS NO JOB FAMILY MAINT",
+      "amount": 5000.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"10/7/2024\", \"Amount\": \"5000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0PSVVRLW PLATINUM SAVINGS NO JOB FAMILY MAINT\"}"
+    },
+    {
+      "id": 58,
+      "account_id": 1,
+      "date": "10/7/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PSC2L3L EVERYDAY CHECKING ORDER 11445613334140203 HALLOWEEN",
+      "amount": 48.7,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"10/7/2024\", \"Amount\": \"48.7\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PSC2L3L EVERYDAY CHECKING ORDER 11445613334140203 HALLOWEEN\"}"
+    },
+    {
+      "id": 59,
+      "account_id": 1,
+      "date": "10/4/2024",
+      "description": "CHECK # 1039",
+      "amount": -284.57,
+      "note": "1039.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"10/4/2024\", \"Amount\": \"-284.57\", \"Account\": \"*\", \"Notes\": \"1039.0\", \"Description\": \"CHECK # 1039\"}"
+    },
+    {
+      "id": 60,
+      "account_id": 1,
+      "date": "10/2/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0PR93SV8 ON 10/02/24",
+      "amount": 900.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"10/2/2024\", \"Amount\": \"900.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0PR93SV8 ON 10/02/24\"}"
+    },
+    {
+      "id": 61,
+      "account_id": 1,
+      "date": "9/30/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.02,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"9/30/2024\", \"Amount\": \"0.02\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 62,
+      "account_id": 1,
+      "date": "9/30/2024",
+      "description": "CHECK # 152",
+      "amount": -40.0,
+      "note": "152.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"9/30/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"152.0\", \"Description\": \"CHECK # 152\"}"
+    },
+    {
+      "id": 63,
+      "account_id": 1,
+      "date": "9/26/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PNYPM8C EVERYDAY CHECKING UCSF/SUTTER HEALTH/SEND MONEY TO MA",
+      "amount": 250.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"9/26/2024\", \"Amount\": \"250.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PNYPM8C EVERYDAY CHECKING UCSF/SUTTER HEALTH/SEND MONEY TO MA\"}"
+    },
+    {
+      "id": 64,
+      "account_id": 1,
+      "date": "9/24/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PNDNHNW EVERYDAY CHECKING PRIUS GAS",
+      "amount": 36.69,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"9/24/2024\", \"Amount\": \"36.69\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PNDNHNW EVERYDAY CHECKING PRIUS GAS\"}"
+    },
+    {
+      "id": 65,
+      "account_id": 1,
+      "date": "9/20/2024",
+      "description": "CITI AUTOPAY PAYMENT 240919 291492069060082 DIPANKAR BHATTACHARYYA",
+      "amount": -947.63,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"9/20/2024\", \"Amount\": \"-947.63\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240919 291492069060082 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 66,
+      "account_id": 1,
+      "date": "9/18/2024",
+      "description": "CITI CARD ONLINE PAYMENT 240917 431489512974323 DIPANKAR BHATTACHARYYA",
+      "amount": -665.04,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"9/18/2024\", \"Amount\": \"-665.04\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI CARD ONLINE PAYMENT 240917 431489512974323 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 67,
+      "account_id": 1,
+      "date": "9/18/2024",
+      "description": "CHASE CREDIT CRD EPAY 240916 7815177311 DIPANKAR BHATTACHARYYA",
+      "amount": -106.41,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"9/18/2024\", \"Amount\": \"-106.41\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CHASE CREDIT CRD EPAY 240916 7815177311 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 68,
+      "account_id": 1,
+      "date": "9/13/2024",
+      "description": "ONLINE TRANSFER TO BHATTACHARYYA D REF #IB0PK65KV8 EVERYDAY CHECKING ROOM RENT",
+      "amount": -1409.49,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"9/13/2024\", \"Amount\": \"-1409.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER TO BHATTACHARYYA D REF #IB0PK65KV8 EVERYDAY CHECKING ROOM RENT\"}"
+    },
+    {
+      "id": 69,
+      "account_id": 1,
+      "date": "9/13/2024",
+      "description": "SAFE BOX ANNUAL FEE CA-CNB00153-2105",
+      "amount": -20.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"9/13/2024\", \"Amount\": \"-20.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SAFE BOX ANNUAL FEE CA-CNB00153-2105\"}"
+    },
+    {
+      "id": 70,
+      "account_id": 1,
+      "date": "9/10/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PHWWJ6R EVERYDAY CHECKING NO OPTION",
+      "amount": 500.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"9/10/2024\", \"Amount\": \"500.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PHWWJ6R EVERYDAY CHECKING NO OPTION\"}"
+    },
+    {
+      "id": 71,
+      "account_id": 1,
+      "date": "9/9/2024",
+      "description": "CHECK # 151",
+      "amount": -40.0,
+      "note": "151.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"9/9/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"151.0\", \"Description\": \"CHECK # 151\"}"
+    },
+    {
+      "id": 72,
+      "account_id": 1,
+      "date": "9/6/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 240905 4369488 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"9/6/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 240905 4369488 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 73,
+      "account_id": 1,
+      "date": "9/6/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D PLATINUM SAVINGS XXXXXX6754 REF #IB0PGT3BNX ON 09/06/24",
+      "amount": 4000.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"9/6/2024\", \"Amount\": \"4000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D PLATINUM SAVINGS XXXXXX6754 REF #IB0PGT3BNX ON 09/06/24\"}"
+    },
+    {
+      "id": 74,
+      "account_id": 1,
+      "date": "9/6/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0PGP8XHY ON 09/05/24",
+      "amount": 2000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"9/6/2024\", \"Amount\": \"2000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0PGP8XHY ON 09/05/24\"}"
+    },
+    {
+      "id": 75,
+      "account_id": 1,
+      "date": "9/5/2024",
+      "description": "CHECK # 1644",
+      "amount": -510.66,
+      "note": "1644.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"9/5/2024\", \"Amount\": \"-510.66\", \"Account\": \"*\", \"Notes\": \"1644.0\", \"Description\": \"CHECK # 1644\"}"
+    },
+    {
+      "id": 76,
+      "account_id": 1,
+      "date": "9/3/2024",
+      "description": "CITI CARD ONLINE PAYMENT 240902 431474821230720 DIPANKAR BHATTACHARYYA",
+      "amount": -2000.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"9/3/2024\", \"Amount\": \"-2000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI CARD ONLINE PAYMENT 240902 431474821230720 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 77,
+      "account_id": 1,
+      "date": "9/3/2024",
+      "description": "PGANDE WEB ONLINE SEP 24 03736811083124 DIPANKAR BHATTACHARYYA",
+      "amount": -165.64,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"9/3/2024\", \"Amount\": \"-165.64\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE SEP 24 03736811083124 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 78,
+      "account_id": 1,
+      "date": "8/30/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.03,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"8/30/2024\", \"Amount\": \"0.03\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 79,
+      "account_id": 1,
+      "date": "8/27/2024",
+      "description": "UC Berkeley ONLINEPYMT 240826 3036664700 DIPANKAR BHATTACHARYYA",
+      "amount": -6120.5,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"8/27/2024\", \"Amount\": \"-6120.5\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"UC Berkeley ONLINEPYMT 240826 3036664700 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 80,
+      "account_id": 1,
+      "date": "8/26/2024",
+      "description": "CHECK # 150",
+      "amount": -40.0,
+      "note": "150.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"8/26/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"150.0\", \"Description\": \"CHECK # 150\"}"
+    },
+    {
+      "id": 81,
+      "account_id": 1,
+      "date": "8/26/2024",
+      "description": "ONLINE TRANSFER TO BHATTACHARYYA D EVERYDAY CHECKING XXXXXX3157 REF #IB0PBKD2Y9 ON 08/24/24",
+      "amount": -140.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"8/26/2024\", \"Amount\": \"-140.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER TO BHATTACHARYYA D EVERYDAY CHECKING XXXXXX3157 REF #IB0PBKD2Y9 ON 08/24/24\"}"
+    },
+    {
+      "id": 82,
+      "account_id": 1,
+      "date": "8/26/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0PBXZB3F EVERYDAY CHECKING COSTCO SHOP 66 36 5",
+      "amount": 107.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"8/26/2024\", \"Amount\": \"107.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0PBXZB3F EVERYDAY CHECKING COSTCO SHOP 66 36 5\"}"
+    },
+    {
+      "id": 83,
+      "account_id": 1,
+      "date": "8/26/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PBPB8TG EVERYDAY CHECKING PRIUS GAS FILLED BY ARKO",
+      "amount": 30.98,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"8/26/2024\", \"Amount\": \"30.98\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0PBPB8TG EVERYDAY CHECKING PRIUS GAS FILLED BY ARKO\"}"
+    },
+    {
+      "id": 84,
+      "account_id": 1,
+      "date": "8/26/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0PBP8TYH PLATINUM SAVINGS AISHIK COLLEGE TUTION",
+      "amount": 7000.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"8/26/2024\", \"Amount\": \"7000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0PBP8TYH PLATINUM SAVINGS AISHIK COLLEGE TUTION\"}"
+    },
+    {
+      "id": 85,
+      "account_id": 1,
+      "date": "8/20/2024",
+      "description": "CITI AUTOPAY PAYMENT 240819 081465363560114 DIPANKAR BHATTACHARYYA",
+      "amount": -1438.89,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"8/20/2024\", \"Amount\": \"-1438.89\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240819 081465363560114 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 86,
+      "account_id": 1,
+      "date": "8/19/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0P8PZY43 EVERYDAY CHECKING SUTTERHEALTH/UCSF/SEND MONEY TO MA",
+      "amount": 250.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"8/19/2024\", \"Amount\": \"250.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0P8PZY43 EVERYDAY CHECKING SUTTERHEALTH/UCSF/SEND MONEY TO MA\"}"
+    },
+    {
+      "id": 87,
+      "account_id": 1,
+      "date": "8/14/2024",
+      "description": "WT 240814-180769 TORONTO-DOMINION BA /BNF=E AND H MEHTA CONSULTING INC SRF# 0000506227640982 TRN#240814180769 RFB#",
+      "amount": -1675.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"8/14/2024\", \"Amount\": \"-1675.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"WT 240814-180769 TORONTO-DOMINION BA /BNF=E AND H MEHTA CONSULTING INC SRF# 0000506227640982 TRN#240814180769 RFB#\"}"
+    },
+    {
+      "id": 88,
+      "account_id": 1,
+      "date": "8/14/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0P76357W PLATINUM SAVINGS ARCHIT HIGH SCHOOL COUNSELING",
+      "amount": 1675.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"8/14/2024\", \"Amount\": \"1675.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0P76357W PLATINUM SAVINGS ARCHIT HIGH SCHOOL COUNSELING\"}"
+    },
+    {
+      "id": 89,
+      "account_id": 1,
+      "date": "8/12/2024",
+      "description": "MONEY TRANSFER AUTHORIZED ON 08/11 RMTLY* KEA74 WWW.REMITLY.C WA S464225143110897 CARD 9143",
+      "amount": -8.99,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"8/12/2024\", \"Amount\": \"-8.99\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"MONEY TRANSFER AUTHORIZED ON 08/11 RMTLY* KEA74 WWW.REMITLY.C WA S464225143110897 CARD 9143\"}"
+    },
+    {
+      "id": 90,
+      "account_id": 1,
+      "date": "8/9/2024",
+      "description": "CHECK # 149",
+      "amount": -40.0,
+      "note": "149.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"8/9/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"149.0\", \"Description\": \"CHECK # 149\"}"
+    },
+    {
+      "id": 91,
+      "account_id": 1,
+      "date": "8/6/2024",
+      "description": "CHECK # 1650",
+      "amount": -484.12,
+      "note": "1650.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"8/6/2024\", \"Amount\": \"-484.12\", \"Account\": \"*\", \"Notes\": \"1650.0\", \"Description\": \"CHECK # 1650\"}"
+    },
+    {
+      "id": 92,
+      "account_id": 1,
+      "date": "8/6/2024",
+      "description": "AppFolio, Inc. F WEB PMTS 080624 V94WD4 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"8/6/2024\", \"Amount\": \"-2.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 080624 V94WD4 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 93,
+      "account_id": 1,
+      "date": "8/6/2024",
+      "description": "SG Real Estate WEB PMTS 080624 F44KHB Dipankar Bhattacharyya",
+      "amount": -3531.29,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"8/6/2024\", \"Amount\": \"-3531.29\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 080624 F44KHB Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 94,
+      "account_id": 1,
+      "date": "8/6/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 240805 4094399 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"8/6/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 240805 4094399 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 95,
+      "account_id": 1,
+      "date": "8/6/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0P4SKRNF PLATINUM SAVINGS FAMILY MAINTENANCE",
+      "amount": 3000.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"8/6/2024\", \"Amount\": \"3000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0P4SKRNF PLATINUM SAVINGS FAMILY MAINTENANCE\"}"
+    },
+    {
+      "id": 96,
+      "account_id": 1,
+      "date": "8/5/2024",
+      "description": "PGANDE WEB ONLINE AUG 24 00505068080224 DIPANKAR BHATTACHARYYA",
+      "amount": -184.61,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"8/5/2024\", \"Amount\": \"-184.61\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE AUG 24 00505068080224 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 97,
+      "account_id": 1,
+      "date": "8/5/2024",
+      "description": "WT 240805-164939 TORONTO-DOMINION BA /BNF=E AND H MEHTA CONSULTING INC SRF# 0000506218948932 TRN#240805164939 RFB#",
+      "amount": -1385.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"8/5/2024\", \"Amount\": \"-1385.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"WT 240805-164939 TORONTO-DOMINION BA /BNF=E AND H MEHTA CONSULTING INC SRF# 0000506218948932 TRN#240805164939 RFB#\"}"
+    },
+    {
+      "id": 98,
+      "account_id": 1,
+      "date": "8/5/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0P4BWCLS EVERYDAY CHECKING AISHIK RENT",
+      "amount": 2650.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"8/5/2024\", \"Amount\": \"2650.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0P4BWCLS EVERYDAY CHECKING AISHIK RENT\"}"
+    },
+    {
+      "id": 99,
+      "account_id": 1,
+      "date": "7/31/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.03,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"7/31/2024\", \"Amount\": \"0.03\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 100,
+      "account_id": 1,
+      "date": "7/31/2024",
+      "description": "CITI CARD ONLINE PAYMENT 240730 431447233435174 DIPANKAR BHATTACHARYYA",
+      "amount": -6795.34,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"7/31/2024\", \"Amount\": \"-6795.34\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI CARD ONLINE PAYMENT 240730 431447233435174 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 101,
+      "account_id": 1,
+      "date": "7/31/2024",
+      "description": "ATM WITHDRAWAL AUTHORIZED ON 07/31 1900 W 11th St Tracy CA 0005461 ATM ID 0575A CARD 9143",
+      "amount": -100.0,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"7/31/2024\", \"Amount\": \"-100.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ATM WITHDRAWAL AUTHORIZED ON 07/31 1900 W 11th St Tracy CA 0005461 ATM ID 0575A CARD 9143\"}"
+    },
+    {
+      "id": 102,
+      "account_id": 1,
+      "date": "7/31/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D PLATINUM SAVINGS XXXXXX6754 REF #IB0P2L3Z5F ON 07/31/24",
+      "amount": 5000.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"7/31/2024\", \"Amount\": \"5000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D PLATINUM SAVINGS XXXXXX6754 REF #IB0P2L3Z5F ON 07/31/24\"}"
+    },
+    {
+      "id": 103,
+      "account_id": 1,
+      "date": "7/30/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0P28QW8M EVERYDAY CHECKING PAY CREDIT CARD",
+      "amount": 3000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"7/30/2024\", \"Amount\": \"3000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0P28QW8M EVERYDAY CHECKING PAY CREDIT CARD\"}"
+    },
+    {
+      "id": 104,
+      "account_id": 1,
+      "date": "7/29/2024",
+      "description": "WT SEQ#48154 WF RETURN WIRES IN PROC /ORG= SRF# 2024072900047643 TRN#240729048154 RFB#",
+      "amount": 1360.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"7/29/2024\", \"Amount\": \"1360.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"WT SEQ#48154 WF RETURN WIRES IN PROC /ORG= SRF# 2024072900047643 TRN#240729048154 RFB#\"}"
+    },
+    {
+      "id": 105,
+      "account_id": 1,
+      "date": "7/26/2024",
+      "description": "WT 240726-187547 TORONTO-DOMINION BA /BNF=E And Metha Consulting INC SRF# 0000575208861791 TRN#240726187547 RFB#",
+      "amount": -1385.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"7/26/2024\", \"Amount\": \"-1385.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"WT 240726-187547 TORONTO-DOMINION BA /BNF=E And Metha Consulting INC SRF# 0000575208861791 TRN#240726187547 RFB#\"}"
+    },
+    {
+      "id": 106,
+      "account_id": 1,
+      "date": "7/23/2024",
+      "description": "CITI AUTOPAY PAYMENT 240722 081441199770947 DIPANKAR BHATTACHARYYA",
+      "amount": -1117.96,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"7/23/2024\", \"Amount\": \"-1117.96\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240722 081441199770947 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 107,
+      "account_id": 1,
+      "date": "7/16/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0NW4RM35 COMPLETE ADVANTAGE(RM) SUTTERHEALTH/UCSF/CPR FEE",
+      "amount": 238.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"7/16/2024\", \"Amount\": \"238.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0NW4RM35 COMPLETE ADVANTAGE(RM) SUTTERHEALTH/UCSF/CPR FEE\"}"
+    },
+    {
+      "id": 108,
+      "account_id": 1,
+      "date": "7/12/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0NTNC5SX ON 07/11/24",
+      "amount": 4000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"7/12/2024\", \"Amount\": \"4000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0NTNC5SX ON 07/11/24\"}"
+    },
+    {
+      "id": 109,
+      "account_id": 1,
+      "date": "7/12/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0NTNBS6X COMPLETE ADVANTAGE(RM) SUPRITI PAYMENT",
+      "amount": 48.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"7/12/2024\", \"Amount\": \"48.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0NTNBS6X COMPLETE ADVANTAGE(RM) SUPRITI PAYMENT\"}"
+    },
+    {
+      "id": 110,
+      "account_id": 1,
+      "date": "7/11/2024",
+      "description": "CITI AUTOPAY PAYMENT 240710 081430803014257 DIPANKAR BHATTACHARYYA",
+      "amount": -49.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"7/11/2024\", \"Amount\": \"-49.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240710 081430803014257 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 111,
+      "account_id": 1,
+      "date": "7/8/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 240705 3896090 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"7/8/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 240705 3896090 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 112,
+      "account_id": 1,
+      "date": "7/5/2024",
+      "description": "CHECK # 1628",
+      "amount": -448.12,
+      "note": "1628.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"7/5/2024\", \"Amount\": \"-448.12\", \"Account\": \"*\", \"Notes\": \"1628.0\", \"Description\": \"CHECK # 1628\"}"
+    },
+    {
+      "id": 113,
+      "account_id": 1,
+      "date": "7/5/2024",
+      "description": "AppFolio, Inc. F WEB PMTS 070524 9T72B4 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"7/5/2024\", \"Amount\": \"-2.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 070524 9T72B4 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 114,
+      "account_id": 1,
+      "date": "7/5/2024",
+      "description": "SG Real Estate WEB PMTS 070524 H68CBB Dipankar Bhattacharyya",
+      "amount": -4075.13,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"7/5/2024\", \"Amount\": \"-4075.13\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 070524 H68CBB Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 115,
+      "account_id": 1,
+      "date": "7/5/2024",
+      "description": "CHECK # 125",
+      "amount": -40.0,
+      "note": "125.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"7/5/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"125.0\", \"Description\": \"CHECK # 125\"}"
+    },
+    {
+      "id": 116,
+      "account_id": 1,
+      "date": "7/1/2024",
+      "description": "PGANDE WEB ONLINE JUN 24 96765226062824 DIPANKAR BHATTACHARYYA",
+      "amount": -163.77,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"7/1/2024\", \"Amount\": \"-163.77\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE JUN 24 96765226062824 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 117,
+      "account_id": 1,
+      "date": "6/28/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.1,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"6/28/2024\", \"Amount\": \"0.1\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 118,
+      "account_id": 1,
+      "date": "6/25/2024",
+      "description": "ONLINE TRANSFER TO BHATTACHARYYA D REF #IB0NN6VVCT EVERYDAY CHECKING SREYA PROGRAM PARKING AND PIZZA",
+      "amount": -30.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"6/25/2024\", \"Amount\": \"-30.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER TO BHATTACHARYYA D REF #IB0NN6VVCT EVERYDAY CHECKING SREYA PROGRAM PARKING AND PIZZA\"}"
+    },
+    {
+      "id": 119,
+      "account_id": 1,
+      "date": "6/24/2024",
+      "description": "CHECK # 124",
+      "amount": -40.0,
+      "note": "124.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"6/24/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"124.0\", \"Description\": \"CHECK # 124\"}"
+    },
+    {
+      "id": 120,
+      "account_id": 1,
+      "date": "6/24/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0NMHP97H COMPLETE ADVANTAGE(RM) UCSF/SUTTERHEALTH/TSANG/JHUMU",
+      "amount": 355.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"6/24/2024\", \"Amount\": \"355.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0NMHP97H COMPLETE ADVANTAGE(RM) UCSF/SUTTERHEALTH/TSANG/JHUMU\"}"
+    },
+    {
+      "id": 121,
+      "account_id": 1,
+      "date": "6/21/2024",
+      "description": "CITI AUTOPAY PAYMENT 240620 081413522980495 DIPANKAR BHATTACHARYYA",
+      "amount": -532.81,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/21/2024\", \"Amount\": \"-532.81\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240620 081413522980495 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 122,
+      "account_id": 1,
+      "date": "6/17/2024",
+      "description": "CITI CARD ONLINE PAYMENT 240614 431407930542211 DIPANKAR BHATTACHARYYA",
+      "amount": -3838.36,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/17/2024\", \"Amount\": \"-3838.36\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI CARD ONLINE PAYMENT 240614 431407930542211 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 123,
+      "account_id": 1,
+      "date": "6/17/2024",
+      "description": "SAFE BOX KEY DEPOSIT CA-GAB00136-908",
+      "amount": -20.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"6/17/2024\", \"Amount\": \"-20.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SAFE BOX KEY DEPOSIT CA-GAB00136-908\"}"
+    },
+    {
+      "id": 124,
+      "account_id": 1,
+      "date": "6/17/2024",
+      "description": "SAFE BOX ANNUAL FEE CA-GAB00136-908",
+      "amount": -20.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"6/17/2024\", \"Amount\": \"-20.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SAFE BOX ANNUAL FEE CA-GAB00136-908\"}"
+    },
+    {
+      "id": 125,
+      "account_id": 1,
+      "date": "6/12/2024",
+      "description": "Provisional Credit Reversal-Ref #2405010010845",
+      "amount": -75.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"6/12/2024\", \"Amount\": \"-75.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"Provisional Credit Reversal-Ref #2405010010845\"}"
+    },
+    {
+      "id": 126,
+      "account_id": 1,
+      "date": "6/11/2024",
+      "description": "SG Real Estate WEB PMTS 061124 0R686B Dipankar Bhattacharyya",
+      "amount": -3911.46,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/11/2024\", \"Amount\": \"-3911.46\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 061124 0R686B Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 127,
+      "account_id": 1,
+      "date": "6/11/2024",
+      "description": "CITI AUTOPAY PAYMENT 240610 081404884823126 DIPANKAR BHATTACHARYYA",
+      "amount": -41.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/11/2024\", \"Amount\": \"-41.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240610 081404884823126 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 128,
+      "account_id": 1,
+      "date": "6/11/2024",
+      "description": "AppFolio, Inc. F WEB PMTS 061124 HVM184 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/11/2024\", \"Amount\": \"-2.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 061124 HVM184 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 129,
+      "account_id": 1,
+      "date": "6/11/2024",
+      "description": "ONLINE TRANSFER TO BHATTACHARYYA D REF #IB0NHWHDDM EVERYDAY CHECKING TRADER JOE",
+      "amount": -15.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"6/11/2024\", \"Amount\": \"-15.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER TO BHATTACHARYYA D REF #IB0NHWHDDM EVERYDAY CHECKING TRADER JOE\"}"
+    },
+    {
+      "id": 130,
+      "account_id": 1,
+      "date": "6/10/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0NHCFBL2 COMPLETE ADVANTAGE(RM) MONEY TO INDIA BIRLAPUR",
+      "amount": 48.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"6/10/2024\", \"Amount\": \"48.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0NHCFBL2 COMPLETE ADVANTAGE(RM) MONEY TO INDIA BIRLAPUR\"}"
+    },
+    {
+      "id": 131,
+      "account_id": 1,
+      "date": "6/7/2024",
+      "description": "eTransfer in Branch/Store - To savings 1900 W 11TH ST TRACY CA 6754",
+      "amount": -50.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"6/7/2024\", \"Amount\": \"-50.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"eTransfer in Branch/Store - To savings 1900 W 11TH ST TRACY CA 6754\"}"
+    },
+    {
+      "id": 132,
+      "account_id": 1,
+      "date": "6/6/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 240605 4257845 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"6/6/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 240605 4257845 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 133,
+      "account_id": 1,
+      "date": "6/5/2024",
+      "description": "CHECK # 1931",
+      "amount": -460.12,
+      "note": "1931.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"6/5/2024\", \"Amount\": \"-460.12\", \"Account\": \"*\", \"Notes\": \"1931.0\", \"Description\": \"CHECK # 1931\"}"
+    },
+    {
+      "id": 134,
+      "account_id": 1,
+      "date": "6/4/2024",
+      "description": "PGANDE WEB ONLINE JUN 24 93904473060124 DIPANKAR BHATTACHARYYA",
+      "amount": -166.98,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/4/2024\", \"Amount\": \"-166.98\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE JUN 24 93904473060124 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 135,
+      "account_id": 1,
+      "date": "5/31/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.16,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"5/31/2024\", \"Amount\": \"0.16\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 136,
+      "account_id": 1,
+      "date": "5/29/2024",
+      "description": "ONLINE TRANSFER TO BHATTACHARYYA D REF #IB0NCK586D EVERYDAY CHECKING BIRYANI AND CREAM CHEESE",
+      "amount": -16.5,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"5/29/2024\", \"Amount\": \"-16.5\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER TO BHATTACHARYYA D REF #IB0NCK586D EVERYDAY CHECKING BIRYANI AND CREAM CHEESE\"}"
+    },
+    {
+      "id": 137,
+      "account_id": 1,
+      "date": "5/28/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0NCCRW3F COMPLETE ADVANTAGE(RM) BIRYANI AND GAS TODAY",
+      "amount": 34.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"5/28/2024\", \"Amount\": \"34.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0NCCRW3F COMPLETE ADVANTAGE(RM) BIRYANI AND GAS TODAY\"}"
+    },
+    {
+      "id": 138,
+      "account_id": 1,
+      "date": "5/28/2024",
+      "description": "MBI SETL 240524 3862 BHATTACHARYYA,DIPANKAR",
+      "amount": 60.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/28/2024\", \"Amount\": \"60.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"MBI SETL 240524 3862 BHATTACHARYYA,DIPANKAR\"}"
+    },
+    {
+      "id": 139,
+      "account_id": 1,
+      "date": "5/24/2024",
+      "description": "FID BKG SVC LLC MONEYLINE 240524 229845812 KCY5C DIPANKAR BHATTACHARYYA",
+      "amount": 179.44,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/24/2024\", \"Amount\": \"179.44\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"FID BKG SVC LLC MONEYLINE 240524 229845812 KCY5C DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 140,
+      "account_id": 1,
+      "date": "5/22/2024",
+      "description": "ONLINE TRANSFER TO BHATTACHARYYA D EVERYDAY CHECKING XXXXXX3157 REF #IB0N9P4KKJ ON 05/22/24",
+      "amount": -6.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"5/22/2024\", \"Amount\": \"-6.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER TO BHATTACHARYYA D EVERYDAY CHECKING XXXXXX3157 REF #IB0N9P4KKJ ON 05/22/24\"}"
+    },
+    {
+      "id": 141,
+      "account_id": 1,
+      "date": "5/22/2024",
+      "description": "MBI SETL 240521 3862 BHATTACHARYYA,DIPANKAR",
+      "amount": 110.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/22/2024\", \"Amount\": \"110.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"MBI SETL 240521 3862 BHATTACHARYYA,DIPANKAR\"}"
+    },
+    {
+      "id": 142,
+      "account_id": 1,
+      "date": "5/21/2024",
+      "description": "CITI AUTOPAY PAYMENT 240520 081386739322442 DIPANKAR BHATTACHARYYA",
+      "amount": -755.53,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/21/2024\", \"Amount\": \"-755.53\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240520 081386739322442 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 143,
+      "account_id": 1,
+      "date": "5/21/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0N9G4G4B COMPLETE ADVANTAGE(RM) UCSF/SUTTERHEALTH MEDICAL BILL",
+      "amount": 200.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"5/21/2024\", \"Amount\": \"200.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0N9G4G4B COMPLETE ADVANTAGE(RM) UCSF/SUTTERHEALTH MEDICAL BILL\"}"
+    },
+    {
+      "id": 144,
+      "account_id": 1,
+      "date": "5/14/2024",
+      "description": "CITI CARD ONLINE PAYMENT 240513 431379771550379 DIPANKAR BHATTACHARYYA",
+      "amount": -1878.74,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/14/2024\", \"Amount\": \"-1878.74\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI CARD ONLINE PAYMENT 240513 431379771550379 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 145,
+      "account_id": 1,
+      "date": "5/13/2024",
+      "description": "CITI AUTOPAY PAYMENT 240510 081378099201665 DIPANKAR BHATTACHARYYA",
+      "amount": -41.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/13/2024\", \"Amount\": \"-41.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240510 081378099201665 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 146,
+      "account_id": 1,
+      "date": "5/13/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0N6SL96C COMPLETE ADVANTAGE(RM) DMV REGISTRATION/RESTAURANT/SEND MONEY MA",
+      "amount": 270.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"5/13/2024\", \"Amount\": \"270.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0N6SL96C COMPLETE ADVANTAGE(RM) DMV REGISTRATION/RESTAURANT/SEND MONEY MA\"}"
+    },
+    {
+      "id": 147,
+      "account_id": 1,
+      "date": "5/13/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0N69TLW4 COMPLETE ADVANTAGE(RM) 3RD TUITION FEE FOR ALLIANT",
+      "amount": 2375.5,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"5/13/2024\", \"Amount\": \"2375.5\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0N69TLW4 COMPLETE ADVANTAGE(RM) 3RD TUITION FEE FOR ALLIANT\"}"
+    },
+    {
+      "id": 148,
+      "account_id": 1,
+      "date": "5/10/2024",
+      "description": "CHECK # 123",
+      "amount": -250.0,
+      "note": "123.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"5/10/2024\", \"Amount\": \"-250.0\", \"Account\": \"*\", \"Notes\": \"123.0\", \"Description\": \"CHECK # 123\"}"
+    },
+    {
+      "id": 149,
+      "account_id": 1,
+      "date": "5/7/2024",
+      "description": "CHECK # 1051",
+      "amount": -460.85,
+      "note": "1051.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"5/7/2024\", \"Amount\": \"-460.85\", \"Account\": \"*\", \"Notes\": \"1051.0\", \"Description\": \"CHECK # 1051\"}"
+    },
+    {
+      "id": 150,
+      "account_id": 1,
+      "date": "5/6/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 240505 4616796 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"5/6/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 240505 4616796 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 151,
+      "account_id": 1,
+      "date": "5/3/2024",
+      "description": "AppFolio, Inc. F WEB PMTS 050324 3QYT44 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/3/2024\", \"Amount\": \"-2.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 050324 3QYT44 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 152,
+      "account_id": 1,
+      "date": "5/3/2024",
+      "description": "SG Real Estate WEB PMTS 050324 8ST50B Dipankar Bhattacharyya",
+      "amount": -1417.82,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/3/2024\", \"Amount\": \"-1417.82\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 050324 8ST50B Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 153,
+      "account_id": 1,
+      "date": "5/3/2024",
+      "description": "PGANDE WEB ONLINE MAY 24 91134044050124 DIPANKAR BHATTACHARYYA",
+      "amount": -92.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/3/2024\", \"Amount\": \"-92.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE MAY 24 91134044050124 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 154,
+      "account_id": 1,
+      "date": "5/2/2024",
+      "description": "CHECK # 122",
+      "amount": -2741.0,
+      "note": "122.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"5/2/2024\", \"Amount\": \"-2741.0\", \"Account\": \"*\", \"Notes\": \"122.0\", \"Description\": \"CHECK # 122\"}"
+    },
+    {
+      "id": 155,
+      "account_id": 1,
+      "date": "5/2/2024",
+      "description": "DEPOSITED OR CASHED CHECK # 119",
+      "amount": -400.0,
+      "note": "119.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"5/2/2024\", \"Amount\": \"-400.0\", \"Account\": \"*\", \"Notes\": \"119.0\", \"Description\": \"DEPOSITED OR CASHED CHECK # 119\"}"
+    },
+    {
+      "id": 156,
+      "account_id": 1,
+      "date": "5/1/2024",
+      "description": "PURCHASE AUTHORIZED ON 04/27 T&N PLUMBING & ELE 209-4088078 CA S384118560091242 CARD 8318",
+      "amount": -75.0,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"5/1/2024\", \"Amount\": \"-75.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PURCHASE AUTHORIZED ON 04/27 T&N PLUMBING & ELE 209-4088078 CA S384118560091242 CARD 8318\"}"
+    },
+    {
+      "id": 157,
+      "account_id": 1,
+      "date": "5/1/2024",
+      "description": "PROVISIONAL CREDIT FOR CLAIM-REF #2405010010845",
+      "amount": 75.0,
+      "note": "nan",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"5/1/2024\", \"Amount\": \"75.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PROVISIONAL CREDIT FOR CLAIM-REF #2405010010845\"}"
+    },
+    {
+      "id": 158,
+      "account_id": 1,
+      "date": "4/30/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.05,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"4/30/2024\", \"Amount\": \"0.05\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 159,
+      "account_id": 1,
+      "date": "4/30/2024",
+      "description": "MSPBNA ACH TRNSFR 240429 106192675906 499211241",
+      "amount": 19573.26,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"4/30/2024\", \"Amount\": \"19573.26\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"MSPBNA ACH TRNSFR 240429 106192675906 499211241\"}"
+    },
+    {
+      "id": 160,
+      "account_id": 1,
+      "date": "4/29/2024",
+      "description": "CHECK # 120",
+      "amount": -320.0,
+      "note": "120.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"4/29/2024\", \"Amount\": \"-320.0\", \"Account\": \"*\", \"Notes\": \"120.0\", \"Description\": \"CHECK # 120\"}"
+    },
+    {
+      "id": 161,
+      "account_id": 1,
+      "date": "4/23/2024",
+      "description": "CITI AUTOPAY PAYMENT 240422 081362546862492 DIPANKAR BHATTACHARYYA",
+      "amount": -446.95,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/23/2024\", \"Amount\": \"-446.95\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240422 081362546862492 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 162,
+      "account_id": 1,
+      "date": "4/23/2024",
+      "description": "ST OF CA DMV INTERNET 240422 053591009240422 DIPANKAR BHATTACHARYYA",
+      "amount": -192.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/23/2024\", \"Amount\": \"-192.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ST OF CA DMV INTERNET 240422 053591009240422 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 163,
+      "account_id": 1,
+      "date": "4/22/2024",
+      "description": "CHECK # 118",
+      "amount": -3338.0,
+      "note": "118.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"4/22/2024\", \"Amount\": \"-3338.0\", \"Account\": \"*\", \"Notes\": \"118.0\", \"Description\": \"CHECK # 118\"}"
+    },
+    {
+      "id": 164,
+      "account_id": 1,
+      "date": "4/22/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MY256JC COMPLETE ADVANTAGE(RM) UCSF/SUTTERHEALTH MEDICAL BILL",
+      "amount": 200.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"4/22/2024\", \"Amount\": \"200.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MY256JC COMPLETE ADVANTAGE(RM) UCSF/SUTTERHEALTH MEDICAL BILL\"}"
+    },
+    {
+      "id": 165,
+      "account_id": 1,
+      "date": "4/17/2024",
+      "description": "IRS TREAS 310 TAX REF 041724 XXXXXXXXXX00989 BHATTACHARYYA, DIPANKA",
+      "amount": 5617.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/17/2024\", \"Amount\": \"5617.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"IRS TREAS 310 TAX REF 041724 XXXXXXXXXX00989 BHATTACHARYYA, DIPANKA\"}"
+    },
+    {
+      "id": 166,
+      "account_id": 1,
+      "date": "4/17/2024",
+      "description": "FRANCHISE TAX BD CASTTAXRFD 041224 XXXXX3862 BHATTACHARYYA, DIPANKA",
+      "amount": 1639.41,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/17/2024\", \"Amount\": \"1639.41\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"FRANCHISE TAX BD CASTTAXRFD 041224 XXXXX3862 BHATTACHARYYA, DIPANKA\"}"
+    },
+    {
+      "id": 167,
+      "account_id": 1,
+      "date": "4/15/2024",
+      "description": "CHECK # 116",
+      "amount": -40.0,
+      "note": "116.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"4/15/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"116.0\", \"Description\": \"CHECK # 116\"}"
+    },
+    {
+      "id": 168,
+      "account_id": 1,
+      "date": "4/15/2024",
+      "description": "CITI CARD ONLINE PAYMENT 240414 431354771825093 DIPANKAR BHATTACHARYYA",
+      "amount": -1453.26,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/15/2024\", \"Amount\": \"-1453.26\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI CARD ONLINE PAYMENT 240414 431354771825093 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 169,
+      "account_id": 1,
+      "date": "4/15/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MVHLHXS COMPLETE ADVANTAGE(RM) SEND MONEY TO MA",
+      "amount": 50.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"4/15/2024\", \"Amount\": \"50.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MVHLHXS COMPLETE ADVANTAGE(RM) SEND MONEY TO MA\"}"
+    },
+    {
+      "id": 170,
+      "account_id": 1,
+      "date": "4/15/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MVHL9FL COMPLETE ADVANTAGE(RM) ALLIANT TUITION FEE 2ND",
+      "amount": 2455.5,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"4/15/2024\", \"Amount\": \"2455.5\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MVHL9FL COMPLETE ADVANTAGE(RM) ALLIANT TUITION FEE 2ND\"}"
+    },
+    {
+      "id": 171,
+      "account_id": 1,
+      "date": "4/12/2024",
+      "description": "CHECK # 115",
+      "amount": -1669.0,
+      "note": "115.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"4/12/2024\", \"Amount\": \"-1669.0\", \"Account\": \"*\", \"Notes\": \"115.0\", \"Description\": \"CHECK # 115\"}"
+    },
+    {
+      "id": 172,
+      "account_id": 1,
+      "date": "4/11/2024",
+      "description": "Farmers Insuran PAYMENT 240410 000000707503466 1638940840 Farmers Insurance Exchange",
+      "amount": 2491.28,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/11/2024\", \"Amount\": \"2491.28\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"Farmers Insuran PAYMENT 240410 000000707503466 1638940840 Farmers Insurance Exchange\"}"
+    },
+    {
+      "id": 173,
+      "account_id": 1,
+      "date": "4/8/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 240405 5208669 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"4/8/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 240405 5208669 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 174,
+      "account_id": 1,
+      "date": "4/5/2024",
+      "description": "CHECK # 1093",
+      "amount": -665.8,
+      "note": "1093.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"4/5/2024\", \"Amount\": \"-665.8\", \"Account\": \"*\", \"Notes\": \"1093.0\", \"Description\": \"CHECK # 1093\"}"
+    },
+    {
+      "id": 175,
+      "account_id": 1,
+      "date": "4/4/2024",
+      "description": "WT 240404-175168 TORONTO-DOMINION BA /BNF=E AND H MEHTA CONSULTING INC SRF# 0000506094830106 TRN#240404175168 RFB#",
+      "amount": -1000.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"4/4/2024\", \"Amount\": \"-1000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"WT 240404-175168 TORONTO-DOMINION BA /BNF=E AND H MEHTA CONSULTING INC SRF# 0000506094830106 TRN#240404175168 RFB#\"}"
+    },
+    {
+      "id": 176,
+      "account_id": 1,
+      "date": "4/3/2024",
+      "description": "SG Real Estate WEB PMTS 040324 9NTMT9 Dipankar Bhattacharyya",
+      "amount": -1431.8,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/3/2024\", \"Amount\": \"-1431.8\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 040324 9NTMT9 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 177,
+      "account_id": 1,
+      "date": "4/3/2024",
+      "description": "AppFolio, Inc. F WEB PMTS 040324 HGPPT9 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/3/2024\", \"Amount\": \"-2.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 040324 HGPPT9 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 178,
+      "account_id": 1,
+      "date": "4/2/2024",
+      "description": "PGANDE WEB ONLINE APR 24 88196744033124 DIPANKAR BHATTACHARYYA",
+      "amount": -299.5,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/2/2024\", \"Amount\": \"-299.5\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE APR 24 88196744033124 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 179,
+      "account_id": 1,
+      "date": "4/2/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0MQXDP9D ON 04/01/24",
+      "amount": 5000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"4/2/2024\", \"Amount\": \"5000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0MQXDP9D ON 04/01/24\"}"
+    },
+    {
+      "id": 180,
+      "account_id": 1,
+      "date": "4/1/2024",
+      "description": "CHECK # 114",
+      "amount": -40.0,
+      "note": "114.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"4/1/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"114.0\", \"Description\": \"CHECK # 114\"}"
+    },
+    {
+      "id": 181,
+      "account_id": 1,
+      "date": "3/29/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.03,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"3/29/2024\", \"Amount\": \"0.03\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 182,
+      "account_id": 1,
+      "date": "3/21/2024",
+      "description": "CITI AUTOPAY PAYMENT 240320 081334051272009 DIPANKAR BHATTACHARYYA",
+      "amount": -998.42,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/21/2024\", \"Amount\": \"-998.42\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240320 081334051272009 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 183,
+      "account_id": 1,
+      "date": "3/18/2024",
+      "description": "CHECK # 113",
+      "amount": -40.0,
+      "note": "113.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"3/18/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"113.0\", \"Description\": \"CHECK # 113\"}"
+    },
+    {
+      "id": 184,
+      "account_id": 1,
+      "date": "3/15/2024",
+      "description": "CITI CARD ONLINE PAYMENT 240314 431327916434220 DIPANKAR BHATTACHARYYA",
+      "amount": -1951.96,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/15/2024\", \"Amount\": \"-1951.96\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI CARD ONLINE PAYMENT 240314 431327916434220 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 185,
+      "account_id": 1,
+      "date": "3/15/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MKR5DVZ COMPLETE ADVANTAGE(RM) UCSF/SUTTER HEALTH/SEND MONEY TO MA",
+      "amount": 250.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"3/15/2024\", \"Amount\": \"250.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MKR5DVZ COMPLETE ADVANTAGE(RM) UCSF/SUTTER HEALTH/SEND MONEY TO MA\"}"
+    },
+    {
+      "id": 186,
+      "account_id": 1,
+      "date": "3/11/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MHQCDPX COMPLETE ADVANTAGE(RM) 1ST TERM TUITION FEE/ALLIANT UNIVERSITY",
+      "amount": 2375.5,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"3/11/2024\", \"Amount\": \"2375.5\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MHQCDPX COMPLETE ADVANTAGE(RM) 1ST TERM TUITION FEE/ALLIANT UNIVERSITY\"}"
+    },
+    {
+      "id": 187,
+      "account_id": 1,
+      "date": "3/7/2024",
+      "description": "CHECK # 1492",
+      "amount": -1363.33,
+      "note": "1492.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"3/7/2024\", \"Amount\": \"-1363.33\", \"Account\": \"*\", \"Notes\": \"1492.0\", \"Description\": \"CHECK # 1492\"}"
+    },
+    {
+      "id": 188,
+      "account_id": 1,
+      "date": "3/6/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 240305 5664054 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"3/6/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 240305 5664054 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 189,
+      "account_id": 1,
+      "date": "3/6/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0MGSL83Z EVERYDAY CHECKING FAMILY MAINTENANCE",
+      "amount": 3000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"3/6/2024\", \"Amount\": \"3000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0MGSL83Z EVERYDAY CHECKING FAMILY MAINTENANCE\"}"
+    },
+    {
+      "id": 190,
+      "account_id": 1,
+      "date": "3/5/2024",
+      "description": "ALLNT INTL UNIV Web Pay 240304 000001612659530 SUSMITA BHATTACHARYYA",
+      "amount": -2375.5,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/5/2024\", \"Amount\": \"-2375.5\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ALLNT INTL UNIV Web Pay 240304 000001612659530 SUSMITA BHATTACHARYYA\"}"
+    },
+    {
+      "id": 191,
+      "account_id": 1,
+      "date": "3/4/2024",
+      "description": "SG Real Estate WEB PMTS 030424 J03CL9 Dipankar Bhattacharyya",
+      "amount": -1434.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/4/2024\", \"Amount\": \"-1434.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 030424 J03CL9 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 192,
+      "account_id": 1,
+      "date": "3/4/2024",
+      "description": "AppFolio, Inc. F WEB PMTS 030424 RKD0M9 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/4/2024\", \"Amount\": \"-2.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 030424 RKD0M9 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 193,
+      "account_id": 1,
+      "date": "3/4/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0MFTNYT2 ON 03/02/24",
+      "amount": 5000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"3/4/2024\", \"Amount\": \"5000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0MFTNYT2 ON 03/02/24\"}"
+    },
+    {
+      "id": 194,
+      "account_id": 1,
+      "date": "3/4/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MFN2HP3 COMPLETE ADVANTAGE(RM) US CONSTITUTION EXAM FEE",
+      "amount": 85.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"3/4/2024\", \"Amount\": \"85.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0MFN2HP3 COMPLETE ADVANTAGE(RM) US CONSTITUTION EXAM FEE\"}"
+    },
+    {
+      "id": 195,
+      "account_id": 1,
+      "date": "3/1/2024",
+      "description": "PGANDE WEB ONLINE FEB 24 84368814022924 DIPANKAR BHATTACHARYYA",
+      "amount": -360.5,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/1/2024\", \"Amount\": \"-360.5\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE FEB 24 84368814022924 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 196,
+      "account_id": 1,
+      "date": "2/29/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.03,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"2/29/2024\", \"Amount\": \"0.03\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 197,
+      "account_id": 1,
+      "date": "2/23/2024",
+      "description": "CHECK # 112",
+      "amount": -40.0,
+      "note": "112.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"2/23/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"112.0\", \"Description\": \"CHECK # 112\"}"
+    },
+    {
+      "id": 198,
+      "account_id": 1,
+      "date": "2/23/2024",
+      "description": "WT 240223-173910 TORONTO-DOMINION BA /BNF=E AND H MEHTA CONSULTING INC SRF# 0000506054224983 TRN#240223173910 RFB#",
+      "amount": -1025.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"2/23/2024\", \"Amount\": \"-1025.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"WT 240223-173910 TORONTO-DOMINION BA /BNF=E AND H MEHTA CONSULTING INC SRF# 0000506054224983 TRN#240223173910 RFB#\"}"
+    },
+    {
+      "id": 199,
+      "account_id": 1,
+      "date": "2/21/2024",
+      "description": "CITI AUTOPAY PAYMENT 240220 081309014790175 DIPANKAR BHATTACHARYYA",
+      "amount": -785.17,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/21/2024\", \"Amount\": \"-785.17\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 240220 081309014790175 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 200,
+      "account_id": 1,
+      "date": "2/16/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0M8ZB8PZ COMPLETE ADVANTAGE(RM) UCSF/SUTTERHEATH/SEND MONEY TO MA",
+      "amount": 250.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"2/16/2024\", \"Amount\": \"250.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0M8ZB8PZ COMPLETE ADVANTAGE(RM) UCSF/SUTTERHEATH/SEND MONEY TO MA\"}"
+    },
+    {
+      "id": 201,
+      "account_id": 1,
+      "date": "2/12/2024",
+      "description": "ZELLE FROM ABHIRAMAV MUTHUVANNAN ON 02/10 REF # BACDJH8LWYSU REFUND FOR YOUR ERP CLOUD TRAINING",
+      "amount": 549.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"2/12/2024\", \"Amount\": \"549.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ZELLE FROM ABHIRAMAV MUTHUVANNAN ON 02/10 REF # BACDJH8LWYSU REFUND FOR YOUR ERP CLOUD TRAINING\"}"
+    },
+    {
+      "id": 202,
+      "account_id": 1,
+      "date": "2/7/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0M67QQ6W ON 02/07/24",
+      "amount": 3000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"2/7/2024\", \"Amount\": \"3000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0M67QQ6W ON 02/07/24\"}"
+    },
+    {
+      "id": 203,
+      "account_id": 1,
+      "date": "2/6/2024",
+      "description": "CHECK # 1718",
+      "amount": -1298.38,
+      "note": "1718.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"2/6/2024\", \"Amount\": \"-1298.38\", \"Account\": \"*\", \"Notes\": \"1718.0\", \"Description\": \"CHECK # 1718\"}"
+    },
+    {
+      "id": 204,
+      "account_id": 1,
+      "date": "2/6/2024",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 240205 6617775 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"2/6/2024\", \"Amount\": \"-2172.19\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 240205 6617775 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 205,
+      "account_id": 1,
+      "date": "2/5/2024",
+      "description": "SG Real Estate WEB PMTS 020524 LYD3D9 Dipankar Bhattacharyya",
+      "amount": -1416.38,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/5/2024\", \"Amount\": \"-1416.38\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 020524 LYD3D9 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 206,
+      "account_id": 1,
+      "date": "2/5/2024",
+      "description": "AppFolio, Inc. F WEB PMTS 020524 G396D9 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"2/5/2024\", \"Amount\": \"-2.49\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 020524 G396D9 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 207,
+      "account_id": 1,
+      "date": "2/5/2024",
+      "description": "CHECK # 111",
+      "amount": -40.0,
+      "note": "111.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"2/5/2024\", \"Amount\": \"-40.0\", \"Account\": \"*\", \"Notes\": \"111.0\", \"Description\": \"CHECK # 111\"}"
+    },
+    {
+      "id": 208,
+      "account_id": 1,
+      "date": "2/5/2024",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0M5GRD64 ON 02/04/24",
+      "amount": 4000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"2/5/2024\", \"Amount\": \"4000.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0M5GRD64 ON 02/04/24\"}"
+    },
+    {
+      "id": 209,
+      "account_id": 1,
+      "date": "2/2/2024",
+      "description": "FARMERS INS EFT PYMT 240201 j322715856 dipankar BHATTACHARYYA",
+      "amount": -463.16,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"2/2/2024\", \"Amount\": \"-463.16\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"FARMERS INS EFT PYMT 240201 j322715856 dipankar BHATTACHARYYA\"}"
+    },
+    {
+      "id": 210,
+      "account_id": 1,
+      "date": "2/2/2024",
+      "description": "PGANDE WEB ONLINE FEB 24 81166602013124 DIPANKAR BHATTACHARYYA",
+      "amount": -323.74,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/2/2024\", \"Amount\": \"-323.74\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE FEB 24 81166602013124 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 211,
+      "account_id": 1,
+      "date": "2/2/2024",
+      "description": "ST OF CA DMV INTERNET 240201 047999104240201 DIPANKAR BHATTACHARYYA",
+      "amount": -295.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/2/2024\", \"Amount\": \"-295.0\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"ST OF CA DMV INTERNET 240201 047999104240201 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 212,
+      "account_id": 1,
+      "date": "1/31/2024",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.48,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"1/31/2024\", \"Amount\": \"0.48\", \"Account\": \"*\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 213,
+      "account_id": 1,
+      "date": "1/26/2024",
+      "description": "CHECK # 110",
+      "amount": -30.0,
+      "note": "110.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"1/26/2024\", \"Amount\": \"-30.0\", \"Account\": \"*\", \"Notes\": \"110.0\", \"Description\": \"CHECK # 110\"}"
+    },
+    {
+      "id": 214,
+      "account_id": 1,
+      "date": "8/11/2025",
+      "description": "CITI AUTOPAY PAYMENT 250808 271771141160090 DIPANKAR BHATTACHARYYA",
+      "amount": -1292.34,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"8/11/2025\", \"Amount\": \"-1292.34\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250808 271771141160090 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 215,
+      "account_id": 1,
+      "date": "8/11/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0TGQ5PZH EVERYDAY CHECKING SEND MONEY TO MA",
+      "amount": 50.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"8/11/2025\", \"Amount\": \"50.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0TGQ5PZH EVERYDAY CHECKING SEND MONEY TO MA\"}"
+    },
+    {
+      "id": 216,
+      "account_id": 1,
+      "date": "8/6/2025",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 250805 6132851 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"8/6/2025\", \"Amount\": \"-2172.19\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 250805 6132851 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 217,
+      "account_id": 1,
+      "date": "8/4/2025",
+      "description": "CHECK # 1225",
+      "amount": -137.89,
+      "note": "1225.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"8/4/2025\", \"Amount\": \"-137.89\", \"Account\": \"WellsChecking\", \"Notes\": \"1225.0\", \"Description\": \"CHECK # 1225\"}"
+    },
+    {
+      "id": 218,
+      "account_id": 1,
+      "date": "8/4/2025",
+      "description": "Cash eWithdrawal in Branch 08/02/2025 11:33 AM 1900 W 11TH ST TRACY CA 9143",
+      "amount": -100.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"8/4/2025\", \"Amount\": \"-100.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"Cash eWithdrawal in Branch 08/02/2025 11:33 AM 1900 W 11TH ST TRACY CA 9143\"}"
+    },
+    {
+      "id": 219,
+      "account_id": 1,
+      "date": "8/4/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S EVERYDAY CHECKING XXXXXX7996 REF #IB0TDYQXYM ON 08/04/25",
+      "amount": 350.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"8/4/2025\", \"Amount\": \"350.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S EVERYDAY CHECKING XXXXXX7996 REF #IB0TDYQXYM ON 08/04/25\"}"
+    },
+    {
+      "id": 220,
+      "account_id": 1,
+      "date": "8/4/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0TDYQ5YV EVERYDAY CHECKING FAMILY MAINTENANCE",
+      "amount": 6000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"8/4/2025\", \"Amount\": \"6000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0TDYQ5YV EVERYDAY CHECKING FAMILY MAINTENANCE\"}"
+    },
+    {
+      "id": 221,
+      "account_id": 1,
+      "date": "8/4/2025",
+      "description": "eDeposit in Branch 08/02/25 11:31:24 AM 1900 W 11TH ST TRACY CA 9143",
+      "amount": 20.51,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"8/4/2025\", \"Amount\": \"20.51\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"eDeposit in Branch 08/02/25 11:31:24 AM 1900 W 11TH ST TRACY CA 9143\"}"
+    },
+    {
+      "id": 222,
+      "account_id": 1,
+      "date": "8/1/2025",
+      "description": "Wealthfront EDI PYMNTS 4CC70294874D44 Dipankar Bhattacharyya",
+      "amount": -30000.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"8/1/2025\", \"Amount\": \"-30000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"Wealthfront EDI PYMNTS 4CC70294874D44 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 223,
+      "account_id": 1,
+      "date": "8/1/2025",
+      "description": "PGANDE WEB ONLINE JUL 25 41087716073125 DIPANKAR BHATTACHARYYA",
+      "amount": -174.59,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"8/1/2025\", \"Amount\": \"-174.59\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE JUL 25 41087716073125 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 224,
+      "account_id": 1,
+      "date": "8/1/2025",
+      "description": "Wealthfront EDI PYMNTS FC864F7A202F43 Dipankar Bhattacharyya",
+      "amount": -50.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"8/1/2025\", \"Amount\": \"-50.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"Wealthfront EDI PYMNTS FC864F7A202F43 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 225,
+      "account_id": 1,
+      "date": "8/1/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0TCQ67B2 EVERYDAY CHECKING TRANSFER TO WF",
+      "amount": 30000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"8/1/2025\", \"Amount\": \"30000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0TCQ67B2 EVERYDAY CHECKING TRANSFER TO WF\"}"
+    },
+    {
+      "id": 226,
+      "account_id": 1,
+      "date": "7/31/2025",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.01,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"7/31/2025\", \"Amount\": \"0.01\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 227,
+      "account_id": 1,
+      "date": "7/29/2025",
+      "description": "Check # 161 (Converted ACH) PASSPORTSERVICES PAYMENT 250728 0161 PCTB02252090104494",
+      "amount": -130.0,
+      "note": "nan",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"7/29/2025\", \"Amount\": \"-130.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"Check # 161 (Converted ACH) PASSPORTSERVICES PAYMENT 250728 0161 PCTB02252090104494\"}"
+    },
+    {
+      "id": 228,
+      "account_id": 1,
+      "date": "7/22/2025",
+      "description": "Link.com Cash back ST-T2E1A5I5U2O0 LINK",
+      "amount": 5.0,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"7/22/2025\", \"Amount\": \"5.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"Link.com Cash back ST-T2E1A5I5U2O0 LINK\"}"
+    },
+    {
+      "id": 229,
+      "account_id": 1,
+      "date": "7/21/2025",
+      "description": "CITI AUTOPAY PAYMENT 250718 291752996420367 DIPANKAR BHATTACHARYYA",
+      "amount": -556.38,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"7/21/2025\", \"Amount\": \"-556.38\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250718 291752996420367 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 230,
+      "account_id": 1,
+      "date": "7/21/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0T7K94S8 EVERYDAY CHECKING TRACY THAI",
+      "amount": 87.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"7/21/2025\", \"Amount\": \"87.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0T7K94S8 EVERYDAY CHECKING TRACY THAI\"}"
+    },
+    {
+      "id": 231,
+      "account_id": 1,
+      "date": "7/14/2025",
+      "description": "CURSOR, AI POWER CURSOR, AI ST-G2M9V4P4Z8C5 LINK",
+      "amount": -20.0,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"7/14/2025\", \"Amount\": \"-20.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CURSOR, AI POWER CURSOR, AI ST-G2M9V4P4Z8C5 LINK\"}"
+    },
+    {
+      "id": 232,
+      "account_id": 1,
+      "date": "7/14/2025",
+      "description": "CHASE CREDIT CRD AUTOPAY 250710 000000000592670 BHATTACHARYYA DIPANKAR",
+      "amount": -439.29,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"7/14/2025\", \"Amount\": \"-439.29\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CHASE CREDIT CRD AUTOPAY 250710 000000000592670 BHATTACHARYYA DIPANKAR\"}"
+    },
+    {
+      "id": 233,
+      "account_id": 1,
+      "date": "7/14/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0T57P548 ON 07/14/25",
+      "amount": 3000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"7/14/2025\", \"Amount\": \"3000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0T57P548 ON 07/14/25\"}"
+    },
+    {
+      "id": 234,
+      "account_id": 1,
+      "date": "7/14/2025",
+      "description": "ZELLE FROM BHATTACHARYYA ARCHIT ON 07/14 REF # PP0Z2JPKHL AMAZON PRIME",
+      "amount": 50.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"7/14/2025\", \"Amount\": \"50.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ZELLE FROM BHATTACHARYYA ARCHIT ON 07/14 REF # PP0Z2JPKHL AMAZON PRIME\"}"
+    },
+    {
+      "id": 235,
+      "account_id": 1,
+      "date": "7/10/2025",
+      "description": "CITI AUTOPAY PAYMENT 250709 271745222360090 DIPANKAR BHATTACHARYYA",
+      "amount": -738.71,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"7/10/2025\", \"Amount\": \"-738.71\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250709 271745222360090 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 236,
+      "account_id": 1,
+      "date": "7/10/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0T3V3LQJ EVERYDAY CHECKING SEND MONEY TO MA",
+      "amount": 50.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"7/10/2025\", \"Amount\": \"50.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0T3V3LQJ EVERYDAY CHECKING SEND MONEY TO MA\"}"
+    },
+    {
+      "id": 237,
+      "account_id": 1,
+      "date": "7/7/2025",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 250705 4271929 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"7/7/2025\", \"Amount\": \"-2172.19\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 250705 4271929 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 238,
+      "account_id": 1,
+      "date": "7/7/2025",
+      "description": "CHECK # 1318",
+      "amount": -137.89,
+      "note": "1318.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"7/7/2025\", \"Amount\": \"-137.89\", \"Account\": \"WellsChecking\", \"Notes\": \"1318.0\", \"Description\": \"CHECK # 1318\"}"
+    },
+    {
+      "id": 239,
+      "account_id": 1,
+      "date": "7/7/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0T2BB67S EVERYDAY CHECKING FAMILY CONTRIBUTION TO PAY PARTIAL AUTOINS",
+      "amount": 300.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"7/7/2025\", \"Amount\": \"300.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0T2BB67S EVERYDAY CHECKING FAMILY CONTRIBUTION TO PAY PARTIAL AUTOINS\"}"
+    },
+    {
+      "id": 240,
+      "account_id": 1,
+      "date": "6/30/2025",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.03,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"6/30/2025\", \"Amount\": \"0.03\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 241,
+      "account_id": 1,
+      "date": "6/30/2025",
+      "description": "Cash eWithdrawal in Branch 06/30/2025 14:49 PM 1900 W 11TH ST TRACY CA 9143",
+      "amount": -50.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"6/30/2025\", \"Amount\": \"-50.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"Cash eWithdrawal in Branch 06/30/2025 14:49 PM 1900 W 11TH ST TRACY CA 9143\"}"
+    },
+    {
+      "id": 242,
+      "account_id": 1,
+      "date": "6/30/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0SY5PQZS EVERYDAY CHECKING GRAD PHOTOS FOR ARKA AND ARJO",
+      "amount": 200.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"6/30/2025\", \"Amount\": \"200.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0SY5PQZS EVERYDAY CHECKING GRAD PHOTOS FOR ARKA AND ARJO\"}"
+    },
+    {
+      "id": 243,
+      "account_id": 1,
+      "date": "6/24/2025",
+      "description": "PGANDE WEB ONLINE JUN 25 36565844062125 DIPANKAR BHATTACHARYYA",
+      "amount": -160.27,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/24/2025\", \"Amount\": \"-160.27\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE JUN 25 36565844062125 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 244,
+      "account_id": 1,
+      "date": "6/23/2025",
+      "description": "CHECK # 160",
+      "amount": -40.0,
+      "note": "160.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"6/23/2025\", \"Amount\": \"-40.0\", \"Account\": \"WellsChecking\", \"Notes\": \"160.0\", \"Description\": \"CHECK # 160\"}"
+    },
+    {
+      "id": 245,
+      "account_id": 1,
+      "date": "6/20/2025",
+      "description": "CITI AUTOPAY PAYMENT 250619 291727940620058 DIPANKAR BHATTACHARYYA",
+      "amount": -1254.82,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/20/2025\", \"Amount\": \"-1254.82\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250619 291727940620058 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 246,
+      "account_id": 1,
+      "date": "6/18/2025",
+      "description": "IIT CITIBANK CITIXFR 250618 IITCITDY2U9AZWN DIPANKAR BHATTACHARY",
+      "amount": -30.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/18/2025\", \"Amount\": \"-30.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"IIT CITIBANK CITIXFR 250618 IITCITDY2U9AZWN DIPANKAR BHATTACHARY\"}"
+    },
+    {
+      "id": 247,
+      "account_id": 1,
+      "date": "6/17/2025",
+      "description": "IRS USATAXPYMT 061725 222556810738723 DIPANKAR & SUSMITA BHA",
+      "amount": -5087.81,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/17/2025\", \"Amount\": \"-5087.81\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"IRS USATAXPYMT 061725 222556810738723 DIPANKAR & SUSMITA BHA\"}"
+    },
+    {
+      "id": 248,
+      "account_id": 1,
+      "date": "6/17/2025",
+      "description": "SAFE BOX ANNUAL FEE CA-GAB00136-908",
+      "amount": -20.0,
+      "note": "nan",
+      "category": "Uncategorized",
+      "raw_data": "{\"Date\": \"6/17/2025\", \"Amount\": \"-20.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"SAFE BOX ANNUAL FEE CA-GAB00136-908\"}"
+    },
+    {
+      "id": 249,
+      "account_id": 1,
+      "date": "6/16/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0SSDQNWK EVERYDAY CHECKING TAX PAYMENT",
+      "amount": 6000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"6/16/2025\", \"Amount\": \"6000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0SSDQNWK EVERYDAY CHECKING TAX PAYMENT\"}"
+    },
+    {
+      "id": 250,
+      "account_id": 1,
+      "date": "6/11/2025",
+      "description": "CHASE CREDIT CRD AUTOPAY 250610 000000000579787 BHATTACHARYYA DIPANKAR",
+      "amount": -167.74,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/11/2025\", \"Amount\": \"-167.74\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CHASE CREDIT CRD AUTOPAY 250610 000000000579787 BHATTACHARYYA DIPANKAR\"}"
+    },
+    {
+      "id": 251,
+      "account_id": 1,
+      "date": "6/10/2025",
+      "description": "CITI AUTOPAY PAYMENT 250609 271719307610072 DIPANKAR BHATTACHARYYA",
+      "amount": -785.75,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/10/2025\", \"Amount\": \"-785.75\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250609 271719307610072 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 252,
+      "account_id": 1,
+      "date": "6/10/2025",
+      "description": "ONLINE TRANSFER TO BHATTACHARYYA D WAY2SAVE SAVINGS XXXXXX3140 REF #IB0SQ5JW76 ON 06/09/25",
+      "amount": -200.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"6/10/2025\", \"Amount\": \"-200.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER TO BHATTACHARYYA D WAY2SAVE SAVINGS XXXXXX3140 REF #IB0SQ5JW76 ON 06/09/25\"}"
+    },
+    {
+      "id": 253,
+      "account_id": 1,
+      "date": "6/10/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0SQ5JTNL EVERYDAY CHECKING 4000 AND 2100",
+      "amount": 72.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"6/10/2025\", \"Amount\": \"72.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0SQ5JTNL EVERYDAY CHECKING 4000 AND 2100\"}"
+    },
+    {
+      "id": 254,
+      "account_id": 1,
+      "date": "6/10/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S EVERYDAY CHECKING XXXXXX7996 REF #IB0SQ5C4C4 ON 06/09/25",
+      "amount": 200.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"6/10/2025\", \"Amount\": \"200.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S EVERYDAY CHECKING XXXXXX7996 REF #IB0SQ5C4C4 ON 06/09/25\"}"
+    },
+    {
+      "id": 255,
+      "account_id": 1,
+      "date": "6/6/2025",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 250605 2930505 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"6/6/2025\", \"Amount\": \"-2172.19\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 250605 2930505 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 256,
+      "account_id": 1,
+      "date": "6/6/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0SNSMF8P ON 06/05/25",
+      "amount": 3000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"6/6/2025\", \"Amount\": \"3000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0SNSMF8P ON 06/05/25\"}"
+    },
+    {
+      "id": 257,
+      "account_id": 1,
+      "date": "6/5/2025",
+      "description": "CHECK # 1010",
+      "amount": -138.94,
+      "note": "1010.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"6/5/2025\", \"Amount\": \"-138.94\", \"Account\": \"WellsChecking\", \"Notes\": \"1010.0\", \"Description\": \"CHECK # 1010\"}"
+    },
+    {
+      "id": 258,
+      "account_id": 1,
+      "date": "6/3/2025",
+      "description": "PGANDE WEB ONLINE JUN 25 34300213053125 DIPANKAR BHATTACHARYYA",
+      "amount": -155.27,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/3/2025\", \"Amount\": \"-155.27\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE JUN 25 34300213053125 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 259,
+      "account_id": 1,
+      "date": "6/2/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0SM5CHFQ EVERYDAY CHECKING FOR MASSAGE",
+      "amount": 94.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"6/2/2025\", \"Amount\": \"94.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0SM5CHFQ EVERYDAY CHECKING FOR MASSAGE\"}"
+    },
+    {
+      "id": 260,
+      "account_id": 1,
+      "date": "6/2/2025",
+      "description": "NAVIA BENEFIT SO FLEXIBLE B 250530 34043888 BHATTACHARYYA ,DIPANKA",
+      "amount": 31.6,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"6/2/2025\", \"Amount\": \"31.6\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NAVIA BENEFIT SO FLEXIBLE B 250530 34043888 BHATTACHARYYA ,DIPANKA\"}"
+    },
+    {
+      "id": 261,
+      "account_id": 1,
+      "date": "5/30/2025",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.03,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"5/30/2025\", \"Amount\": \"0.03\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 262,
+      "account_id": 1,
+      "date": "5/27/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0SJ4MHLD EVERYDAY CHECKING PRICE FOR INDIAN RESTAURANT IN BERKELEY",
+      "amount": 33.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"5/27/2025\", \"Amount\": \"33.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0SJ4MHLD EVERYDAY CHECKING PRICE FOR INDIAN RESTAURANT IN BERKELEY\"}"
+    },
+    {
+      "id": 263,
+      "account_id": 1,
+      "date": "5/20/2025",
+      "description": "CITI AUTOPAY PAYMENT 250519 291701204090020 DIPANKAR BHATTACHARYYA",
+      "amount": -932.97,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/20/2025\", \"Amount\": \"-932.97\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250519 291701204090020 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 264,
+      "account_id": 1,
+      "date": "5/13/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0SD62NTR EVERYDAY CHECKING SEND MONEY TO MA",
+      "amount": 50.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"5/13/2025\", \"Amount\": \"50.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0SD62NTR EVERYDAY CHECKING SEND MONEY TO MA\"}"
+    },
+    {
+      "id": 265,
+      "account_id": 1,
+      "date": "5/12/2025",
+      "description": "CITI AUTOPAY PAYMENT 250509 271692518560072 DIPANKAR BHATTACHARYYA",
+      "amount": -1007.56,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/12/2025\", \"Amount\": \"-1007.56\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250509 271692518560072 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 266,
+      "account_id": 1,
+      "date": "5/12/2025",
+      "description": "CHASE CREDIT CRD AUTOPAY 250509 000000001117938 BHATTACHARYYA DIPANKAR",
+      "amount": -82.11,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"5/12/2025\", \"Amount\": \"-82.11\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CHASE CREDIT CRD AUTOPAY 250509 000000001117938 BHATTACHARYYA DIPANKAR\"}"
+    },
+    {
+      "id": 267,
+      "account_id": 1,
+      "date": "5/12/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0SCZCW5R ON 05/12/25",
+      "amount": 5000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"5/12/2025\", \"Amount\": \"5000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0SCZCW5R ON 05/12/25\"}"
+    },
+    {
+      "id": 268,
+      "account_id": 1,
+      "date": "5/6/2025",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 250505 1401164 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"5/6/2025\", \"Amount\": \"-2172.19\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 250505 1401164 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 269,
+      "account_id": 1,
+      "date": "5/5/2025",
+      "description": "CHECK # 1218",
+      "amount": -138.84,
+      "note": "1218.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"5/5/2025\", \"Amount\": \"-138.84\", \"Account\": \"WellsChecking\", \"Notes\": \"1218.0\", \"Description\": \"CHECK # 1218\"}"
+    },
+    {
+      "id": 270,
+      "account_id": 1,
+      "date": "5/5/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0S99JSQF EVERYDAY CHECKING REMAINING AMOUT OF TAX",
+      "amount": 1429.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"5/5/2025\", \"Amount\": \"1429.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0S99JSQF EVERYDAY CHECKING REMAINING AMOUT OF TAX\"}"
+    },
+    {
+      "id": 271,
+      "account_id": 1,
+      "date": "4/30/2025",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.01,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"4/30/2025\", \"Amount\": \"0.01\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 272,
+      "account_id": 1,
+      "date": "4/29/2025",
+      "description": "PGANDE WEB ONLINE APR 25 31124954042825 DIPANKAR BHATTACHARYYA",
+      "amount": -120.1,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/29/2025\", \"Amount\": \"-120.1\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE APR 25 31124954042825 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 273,
+      "account_id": 1,
+      "date": "4/28/2025",
+      "description": "NAVIA BENEFIT SO FLEXIBLE B 250425 33949997 BHATTACHARYYA ,DIPANKA",
+      "amount": 79.2,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/28/2025\", \"Amount\": \"79.2\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NAVIA BENEFIT SO FLEXIBLE B 250425 33949997 BHATTACHARYYA ,DIPANKA\"}"
+    },
+    {
+      "id": 274,
+      "account_id": 1,
+      "date": "4/21/2025",
+      "description": "CHECK # 159",
+      "amount": -40.0,
+      "note": "159.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"4/21/2025\", \"Amount\": \"-40.0\", \"Account\": \"WellsChecking\", \"Notes\": \"159.0\", \"Description\": \"CHECK # 159\"}"
+    },
+    {
+      "id": 275,
+      "account_id": 1,
+      "date": "4/21/2025",
+      "description": "CITI AUTOPAY PAYMENT 250418 291674379880074 DIPANKAR BHATTACHARYYA",
+      "amount": -788.97,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/21/2025\", \"Amount\": \"-788.97\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250418 291674379880074 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 276,
+      "account_id": 1,
+      "date": "4/21/2025",
+      "description": "NAVIA BENEFIT SO FLEXIBLE B 250418 33929256 BHATTACHARYYA ,DIPANKA",
+      "amount": 79.2,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/21/2025\", \"Amount\": \"79.2\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NAVIA BENEFIT SO FLEXIBLE B 250418 33929256 BHATTACHARYYA ,DIPANKA\"}"
+    },
+    {
+      "id": 277,
+      "account_id": 1,
+      "date": "4/15/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0S25D8FY EVERYDAY CHECKING HALF AMT OF TAX/HALF PENDING NEXT MONTH",
+      "amount": 1429.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"4/15/2025\", \"Amount\": \"1429.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0S25D8FY EVERYDAY CHECKING HALF AMT OF TAX/HALF PENDING NEXT MONTH\"}"
+    },
+    {
+      "id": 278,
+      "account_id": 1,
+      "date": "4/15/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S EVERYDAY CHECKING XXXXXX7996 REF #IB0S25D2QP ON 04/14/25",
+      "amount": 450.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"4/15/2025\", \"Amount\": \"450.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S EVERYDAY CHECKING XXXXXX7996 REF #IB0S25D2QP ON 04/14/25\"}"
+    },
+    {
+      "id": 279,
+      "account_id": 1,
+      "date": "4/14/2025",
+      "description": "IIT CITIBANK CITIXFR 250414 IITCITDE459WFQG DIPANKAR BHATTACHARY",
+      "amount": -30.0,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"4/14/2025\", \"Amount\": \"-30.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"IIT CITIBANK CITIXFR 250414 IITCITDE459WFQG DIPANKAR BHATTACHARY\"}"
+    },
+    {
+      "id": 280,
+      "account_id": 1,
+      "date": "4/11/2025",
+      "description": "IRS USATAXPYMT 040525 200550152788983 DIPANKAR & SUSMITA BHA",
+      "amount": -3847.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/11/2025\", \"Amount\": \"-3847.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"IRS USATAXPYMT 040525 200550152788983 DIPANKAR & SUSMITA BHA\"}"
+    },
+    {
+      "id": 281,
+      "account_id": 1,
+      "date": "4/11/2025",
+      "description": "CHASE CREDIT CRD AUTOPAY 250410 000000000566336 BHATTACHARYYA DIPANKAR",
+      "amount": -396.35,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/11/2025\", \"Amount\": \"-396.35\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CHASE CREDIT CRD AUTOPAY 250410 000000000566336 BHATTACHARYYA DIPANKAR\"}"
+    },
+    {
+      "id": 282,
+      "account_id": 1,
+      "date": "4/11/2025",
+      "description": "FRANCHISE TAX BO PAYMENTS 250411 116668005 PM BHATTACHARY",
+      "amount": -398.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/11/2025\", \"Amount\": \"-398.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"FRANCHISE TAX BO PAYMENTS 250411 116668005 PM BHATTACHARY\"}"
+    },
+    {
+      "id": 283,
+      "account_id": 1,
+      "date": "4/11/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0RYXS368 ON 04/11/25",
+      "amount": 4000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"4/11/2025\", \"Amount\": \"4000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0RYXS368 ON 04/11/25\"}"
+    },
+    {
+      "id": 284,
+      "account_id": 1,
+      "date": "4/10/2025",
+      "description": "CITI AUTOPAY PAYMENT 250409 271666601510091 DIPANKAR BHATTACHARYYA",
+      "amount": -645.76,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/10/2025\", \"Amount\": \"-645.76\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250409 271666601510091 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 285,
+      "account_id": 1,
+      "date": "4/7/2025",
+      "description": "SG Real Estate WEB PMTS 040725 4TQHQC Dipankar Bhattacharyya",
+      "amount": -1415.92,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/7/2025\", \"Amount\": \"-1415.92\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 040725 4TQHQC Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 286,
+      "account_id": 1,
+      "date": "4/7/2025",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 250405 0435296 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"4/7/2025\", \"Amount\": \"-2172.19\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 250405 0435296 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 287,
+      "account_id": 1,
+      "date": "4/7/2025",
+      "description": "AppFolio, Inc. F WEB PMTS 040725 ZW6425 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"4/7/2025\", \"Amount\": \"-2.49\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 040725 ZW6425 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 288,
+      "account_id": 1,
+      "date": "4/4/2025",
+      "description": "CHECK # 1043",
+      "amount": -138.84,
+      "note": "1043.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"4/4/2025\", \"Amount\": \"-138.84\", \"Account\": \"WellsChecking\", \"Notes\": \"1043.0\", \"Description\": \"CHECK # 1043\"}"
+    },
+    {
+      "id": 289,
+      "account_id": 1,
+      "date": "4/4/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0RWBJJNH ON 04/03/25",
+      "amount": 5000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"4/4/2025\", \"Amount\": \"5000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0RWBJJNH ON 04/03/25\"}"
+    },
+    {
+      "id": 290,
+      "account_id": 1,
+      "date": "4/1/2025",
+      "description": "PGANDE WEB ONLINE MAR 25 28032005032925 DIPANKAR BHATTACHARYYA",
+      "amount": -316.61,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"4/1/2025\", \"Amount\": \"-316.61\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE MAR 25 28032005032925 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 291,
+      "account_id": 1,
+      "date": "3/31/2025",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.01,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"3/31/2025\", \"Amount\": \"0.01\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 292,
+      "account_id": 1,
+      "date": "3/31/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0RT6HLM2 EVERYDAY CHECKING MADHURA RESTAURANT",
+      "amount": 32.5,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"3/31/2025\", \"Amount\": \"32.5\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0RT6HLM2 EVERYDAY CHECKING MADHURA RESTAURANT\"}"
+    },
+    {
+      "id": 293,
+      "account_id": 1,
+      "date": "3/24/2025",
+      "description": "GEICO Claim Paym 000000305476737 Bhattacharyya Dipankar",
+      "amount": 500.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/24/2025\", \"Amount\": \"500.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"GEICO Claim Paym 000000305476737 Bhattacharyya Dipankar\"}"
+    },
+    {
+      "id": 294,
+      "account_id": 1,
+      "date": "3/20/2025",
+      "description": "CITI AUTOPAY PAYMENT 250319 291648479730130 DIPANKAR BHATTACHARYYA",
+      "amount": -2414.53,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/20/2025\", \"Amount\": \"-2414.53\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250319 291648479730130 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 295,
+      "account_id": 1,
+      "date": "3/20/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0RQ3XHQ3 ON 03/20/25",
+      "amount": 1000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"3/20/2025\", \"Amount\": \"1000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0RQ3XHQ3 ON 03/20/25\"}"
+    },
+    {
+      "id": 296,
+      "account_id": 1,
+      "date": "3/14/2025",
+      "description": "IIT CITIBANK CITIXFR 250314 IITCITD6ORM0U5Q DIPANKAR BHATTACHARY",
+      "amount": -100.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/14/2025\", \"Amount\": \"-100.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"IIT CITIBANK CITIXFR 250314 IITCITD6ORM0U5Q DIPANKAR BHATTACHARY\"}"
+    },
+    {
+      "id": 297,
+      "account_id": 1,
+      "date": "3/10/2025",
+      "description": "CITI AUTOPAY PAYMENT 250307 271638127090276 DIPANKAR BHATTACHARYYA",
+      "amount": -789.43,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/10/2025\", \"Amount\": \"-789.43\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250307 271638127090276 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 298,
+      "account_id": 1,
+      "date": "3/10/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0RLML7K2 ON 03/10/25",
+      "amount": 2000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"3/10/2025\", \"Amount\": \"2000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0RLML7K2 ON 03/10/25\"}"
+    },
+    {
+      "id": 299,
+      "account_id": 1,
+      "date": "3/7/2025",
+      "description": "SG Real Estate WEB PMTS 030725 PMC1LC Dipankar Bhattacharyya",
+      "amount": -1434.63,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/7/2025\", \"Amount\": \"-1434.63\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 030725 PMC1LC Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 300,
+      "account_id": 1,
+      "date": "3/7/2025",
+      "description": "AppFolio, Inc. F WEB PMTS 030725 QVNSZ4 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"3/7/2025\", \"Amount\": \"-2.49\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 030725 QVNSZ4 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 301,
+      "account_id": 1,
+      "date": "3/6/2025",
+      "description": "CHECK # 1021",
+      "amount": -138.84,
+      "note": "1021.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"3/6/2025\", \"Amount\": \"-138.84\", \"Account\": \"WellsChecking\", \"Notes\": \"1021.0\", \"Description\": \"CHECK # 1021\"}"
+    },
+    {
+      "id": 302,
+      "account_id": 1,
+      "date": "3/6/2025",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 250305 9302855 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"3/6/2025\", \"Amount\": \"-2172.19\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 250305 9302855 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 303,
+      "account_id": 1,
+      "date": "3/6/2025",
+      "description": "Cash eWithdrawal in Branch 03/06/2025 12:50 PM 1900 W 11TH ST TRACY CA 9143",
+      "amount": -50.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"3/6/2025\", \"Amount\": \"-50.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"Cash eWithdrawal in Branch 03/06/2025 12:50 PM 1900 W 11TH ST TRACY CA 9143\"}"
+    },
+    {
+      "id": 304,
+      "account_id": 1,
+      "date": "3/6/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0RK4HDRN EVERYDAY CHECKING MONTHLY CONTRIBUTION AND LAST GAS",
+      "amount": 330.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"3/6/2025\", \"Amount\": \"330.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0RK4HDRN EVERYDAY CHECKING MONTHLY CONTRIBUTION AND LAST GAS\"}"
+    },
+    {
+      "id": 305,
+      "account_id": 1,
+      "date": "3/5/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0RJRCQTL EVERYDAY CHECKING MORTGAGE",
+      "amount": 2000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"3/5/2025\", \"Amount\": \"2000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0RJRCQTL EVERYDAY CHECKING MORTGAGE\"}"
+    },
+    {
+      "id": 306,
+      "account_id": 1,
+      "date": "3/4/2025",
+      "description": "PGANDE WEB ONLINE MAR 25 24566673030225 DIPANKAR BHATTACHARYYA",
+      "amount": -420.53,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"3/4/2025\", \"Amount\": \"-420.53\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE MAR 25 24566673030225 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 307,
+      "account_id": 1,
+      "date": "3/3/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0RHW54JX EVERYDAY CHECKING BELPATA",
+      "amount": 2.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"3/3/2025\", \"Amount\": \"2.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0RHW54JX EVERYDAY CHECKING BELPATA\"}"
+    },
+    {
+      "id": 308,
+      "account_id": 1,
+      "date": "2/28/2025",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.02,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"2/28/2025\", \"Amount\": \"0.02\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 309,
+      "account_id": 1,
+      "date": "2/24/2025",
+      "description": "MONEY TRANSFER AUTHORIZED ON 02/23 FROM GEICO GEICO MD P000000079462377 CARD 9143",
+      "amount": 31.64,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"2/24/2025\", \"Amount\": \"31.64\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"MONEY TRANSFER AUTHORIZED ON 02/23 FROM GEICO GEICO MD P000000079462377 CARD 9143\"}"
+    },
+    {
+      "id": 310,
+      "account_id": 1,
+      "date": "2/20/2025",
+      "description": "CITI AUTOPAY PAYMENT 250219 291624316860072 DIPANKAR BHATTACHARYYA",
+      "amount": -1193.85,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/20/2025\", \"Amount\": \"-1193.85\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250219 291624316860072 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 311,
+      "account_id": 1,
+      "date": "2/13/2025",
+      "description": "eDeposit in Branch 02/13/25 12:37:41 PM 1900 W 11TH ST TRACY CA 9143",
+      "amount": 271.57,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"2/13/2025\", \"Amount\": \"271.57\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"eDeposit in Branch 02/13/25 12:37:41 PM 1900 W 11TH ST TRACY CA 9143\"}"
+    },
+    {
+      "id": 312,
+      "account_id": 1,
+      "date": "2/12/2025",
+      "description": "DEPOSITED ITEM RETN UNPAID - PAPER 250212",
+      "amount": -173.94,
+      "note": "nan",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"2/12/2025\", \"Amount\": \"-173.94\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"DEPOSITED ITEM RETN UNPAID - PAPER 250212\"}"
+    },
+    {
+      "id": 313,
+      "account_id": 1,
+      "date": "2/12/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D PLATINUM SAVINGS XXXXXX6754 REF #IB0R999BTG ON 02/12/25",
+      "amount": 3000.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"2/12/2025\", \"Amount\": \"3000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D PLATINUM SAVINGS XXXXXX6754 REF #IB0R999BTG ON 02/12/25\"}"
+    },
+    {
+      "id": 314,
+      "account_id": 1,
+      "date": "2/12/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0R9997YF EVERYDAY CHECKING FAMILY MAINT AND BUDGE BUDGE",
+      "amount": 350.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"2/12/2025\", \"Amount\": \"350.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0R9997YF EVERYDAY CHECKING FAMILY MAINT AND BUDGE BUDGE\"}"
+    },
+    {
+      "id": 315,
+      "account_id": 1,
+      "date": "2/11/2025",
+      "description": "CHASE CREDIT CRD AUTOPAY 250210 000000000567658 BHATTACHARYYA DIPANKAR",
+      "amount": -64.72,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/11/2025\", \"Amount\": \"-64.72\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CHASE CREDIT CRD AUTOPAY 250210 000000000567658 BHATTACHARYYA DIPANKAR\"}"
+    },
+    {
+      "id": 316,
+      "account_id": 1,
+      "date": "2/11/2025",
+      "description": "SG Real Estate WEB PMTS 021125 PSDMFC Dipankar Bhattacharyya",
+      "amount": -1413.65,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/11/2025\", \"Amount\": \"-1413.65\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 021125 PSDMFC Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 317,
+      "account_id": 1,
+      "date": "2/11/2025",
+      "description": "ST OF CA DMV INTERNET 250210 074705808250210 DIPANKAR BHATTACHARYYA",
+      "amount": -284.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/11/2025\", \"Amount\": \"-284.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ST OF CA DMV INTERNET 250210 074705808250210 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 318,
+      "account_id": 1,
+      "date": "2/11/2025",
+      "description": "AppFolio, Inc. F WEB PMTS 021125 VC3FX4 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/11/2025\", \"Amount\": \"-2.49\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 021125 VC3FX4 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 319,
+      "account_id": 1,
+      "date": "2/10/2025",
+      "description": "CAPITAL ONE ONLINE PMT 250209 42SJHQHI1QTNTAP DIPANKAR BHATTACHARYYA",
+      "amount": -128.8,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/10/2025\", \"Amount\": \"-128.8\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CAPITAL ONE ONLINE PMT 250209 42SJHQHI1QTNTAP DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 320,
+      "account_id": 1,
+      "date": "2/10/2025",
+      "description": "CITI AUTOPAY PAYMENT 250207 271613947500261 DIPANKAR BHATTACHARYYA",
+      "amount": -1276.53,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"2/10/2025\", \"Amount\": \"-1276.53\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250207 271613947500261 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 321,
+      "account_id": 1,
+      "date": "2/10/2025",
+      "description": "CHECK # 158",
+      "amount": -40.0,
+      "note": "158.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"2/10/2025\", \"Amount\": \"-40.0\", \"Account\": \"WellsChecking\", \"Notes\": \"158.0\", \"Description\": \"CHECK # 158\"}"
+    },
+    {
+      "id": 322,
+      "account_id": 1,
+      "date": "2/10/2025",
+      "description": "ATM WITHDRAWAL AUTHORIZED ON 02/08 1900 W 11th St Tracy CA 0002043 ATM ID 0575R CARD 9143",
+      "amount": -100.0,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"2/10/2025\", \"Amount\": \"-100.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ATM WITHDRAWAL AUTHORIZED ON 02/08 1900 W 11th St Tracy CA 0002043 ATM ID 0575R CARD 9143\"}"
+    },
+    {
+      "id": 323,
+      "account_id": 1,
+      "date": "2/10/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0R8V8J7R EVERYDAY CHECKING BIRIYANI FEB 9TH",
+      "amount": 35.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"2/10/2025\", \"Amount\": \"35.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0R8V8J7R EVERYDAY CHECKING BIRIYANI FEB 9TH\"}"
+    },
+    {
+      "id": 324,
+      "account_id": 1,
+      "date": "2/10/2025",
+      "description": "ATM CHECK DEPOSIT ON 02/08 1900 W 11th St Tracy CA 0002040 ATM ID 0575R CARD 9143",
+      "amount": 104.52,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"2/10/2025\", \"Amount\": \"104.52\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ATM CHECK DEPOSIT ON 02/08 1900 W 11th St Tracy CA 0002040 ATM ID 0575R CARD 9143\"}"
+    },
+    {
+      "id": 325,
+      "account_id": 1,
+      "date": "2/10/2025",
+      "description": "ATM CHECK DEPOSIT ON 02/08 1900 W 11th St Tracy CA 0002039 ATM ID 0575R CARD 9143",
+      "amount": 69.42,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"2/10/2025\", \"Amount\": \"69.42\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ATM CHECK DEPOSIT ON 02/08 1900 W 11th St Tracy CA 0002039 ATM ID 0575R CARD 9143\"}"
+    },
+    {
+      "id": 326,
+      "account_id": 1,
+      "date": "2/6/2025",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 250205 8019260 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"2/6/2025\", \"Amount\": \"-2172.19\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 250205 8019260 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 327,
+      "account_id": 1,
+      "date": "2/4/2025",
+      "description": "CHECK # 1069",
+      "amount": -118.33,
+      "note": "1069.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"2/4/2025\", \"Amount\": \"-118.33\", \"Account\": \"WellsChecking\", \"Notes\": \"1069.0\", \"Description\": \"CHECK # 1069\"}"
+    },
+    {
+      "id": 328,
+      "account_id": 1,
+      "date": "2/3/2025",
+      "description": "IIT CITIBANK CITIXFR 250203 IITCITD5GDYM5U9 DIPANKAR BHATTACHARY",
+      "amount": -100.0,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"2/3/2025\", \"Amount\": \"-100.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"IIT CITIBANK CITIXFR 250203 IITCITD5GDYM5U9 DIPANKAR BHATTACHARY\"}"
+    },
+    {
+      "id": 329,
+      "account_id": 1,
+      "date": "2/3/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0R6843V2 ON 02/02/25",
+      "amount": 5000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"2/3/2025\", \"Amount\": \"5000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0R6843V2 ON 02/02/25\"}"
+    },
+    {
+      "id": 330,
+      "account_id": 1,
+      "date": "1/31/2025",
+      "description": "INTEREST PAYMENT",
+      "amount": 0.02,
+      "note": "nan",
+      "category": "Income:Investments:Interest",
+      "raw_data": "{\"Date\": \"1/31/2025\", \"Amount\": \"0.02\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"INTEREST PAYMENT\"}"
+    },
+    {
+      "id": 331,
+      "account_id": 1,
+      "date": "1/31/2025",
+      "description": "PGANDE WEB ONLINE JAN 25 20634880013025 DIPANKAR BHATTACHARYYA",
+      "amount": -348.22,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"1/31/2025\", \"Amount\": \"-348.22\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"PGANDE WEB ONLINE JAN 25 20634880013025 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 332,
+      "account_id": 1,
+      "date": "1/27/2025",
+      "description": "CAPITAL ONE ONLINE PMT 250126 42PJUUHYU1F6YVL DIPANKAR BHATTACHARYYA",
+      "amount": -100.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"1/27/2025\", \"Amount\": \"-100.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CAPITAL ONE ONLINE PMT 250126 42PJUUHYU1F6YVL DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 333,
+      "account_id": 1,
+      "date": "1/27/2025",
+      "description": "PURCHASE AUTHORIZED ON 01/27 COSTCO GAS #0658 TRACY CA P585028028740086 CARD 9143",
+      "amount": -30.31,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"1/27/2025\", \"Amount\": \"-30.31\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"PURCHASE AUTHORIZED ON 01/27 COSTCO GAS #0658 TRACY CA P585028028740086 CARD 9143\"}"
+    },
+    {
+      "id": 334,
+      "account_id": 1,
+      "date": "1/27/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0R3S3XLC EVERYDAY CHECKING GAS PGE TREE",
+      "amount": 240.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"1/27/2025\", \"Amount\": \"240.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0R3S3XLC EVERYDAY CHECKING GAS PGE TREE\"}"
+    },
+    {
+      "id": 335,
+      "account_id": 1,
+      "date": "1/23/2025",
+      "description": "Cash eWithdrawal in Branch 01/23/2025 15:57 PM 1900 W 11TH ST TRACY CA 9143",
+      "amount": -50.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"1/23/2025\", \"Amount\": \"-50.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"Cash eWithdrawal in Branch 01/23/2025 15:57 PM 1900 W 11TH ST TRACY CA 9143\"}"
+    },
+    {
+      "id": 336,
+      "account_id": 1,
+      "date": "1/21/2025",
+      "description": "CITI AUTOPAY PAYMENT 250117 291595786430015 DIPANKAR BHATTACHARYYA",
+      "amount": -2860.17,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"1/21/2025\", \"Amount\": \"-2860.17\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250117 291595786430015 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 337,
+      "account_id": 1,
+      "date": "1/21/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0QZRSD6V PLATINUM SAVINGS FAMILY MAINTENANCE",
+      "amount": 3000.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"1/21/2025\", \"Amount\": \"3000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D REF #IB0QZRSD6V PLATINUM SAVINGS FAMILY MAINTENANCE\"}"
+    },
+    {
+      "id": 338,
+      "account_id": 1,
+      "date": "1/21/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0QZR9K55 EVERYDAY CHECKING ARJO PERDUE APPLICATION FEE",
+      "amount": 60.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"1/21/2025\", \"Amount\": \"60.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S REF #IB0QZR9K55 EVERYDAY CHECKING ARJO PERDUE APPLICATION FEE\"}"
+    },
+    {
+      "id": 339,
+      "account_id": 1,
+      "date": "1/16/2025",
+      "description": "CHECK # 157",
+      "amount": -170.0,
+      "note": "157.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"1/16/2025\", \"Amount\": \"-170.0\", \"Account\": \"WellsChecking\", \"Notes\": \"157.0\", \"Description\": \"CHECK # 157\"}"
+    },
+    {
+      "id": 340,
+      "account_id": 1,
+      "date": "1/13/2025",
+      "description": "CHASE CREDIT CRD AUTOPAY 250110 000000001079964 BHATTACHARYYA DIPANKAR",
+      "amount": -90.25,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"1/13/2025\", \"Amount\": \"-90.25\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CHASE CREDIT CRD AUTOPAY 250110 000000001079964 BHATTACHARYYA DIPANKAR\"}"
+    },
+    {
+      "id": 341,
+      "account_id": 1,
+      "date": "1/13/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S EVERYDAY CHECKING XXXXXX7996 REF #IB0QXBQTC2 ON 01/12/25",
+      "amount": 14.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"1/13/2025\", \"Amount\": \"14.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S EVERYDAY CHECKING XXXXXX7996 REF #IB0QXBQTC2 ON 01/12/25\"}"
+    },
+    {
+      "id": 342,
+      "account_id": 1,
+      "date": "1/10/2025",
+      "description": "CITI AUTOPAY PAYMENT 250109 271588874330128 DIPANKAR BHATTACHARYYA",
+      "amount": -971.34,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"1/10/2025\", \"Amount\": \"-971.34\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITI AUTOPAY PAYMENT 250109 271588874330128 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 343,
+      "account_id": 1,
+      "date": "1/7/2025",
+      "description": "IIT CITIBANK CITIXFR 250107 IITCITDPN8RYXD5 DIPANKAR BHATTACHARY",
+      "amount": -150.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"1/7/2025\", \"Amount\": \"-150.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"IIT CITIBANK CITIXFR 250107 IITCITDPN8RYXD5 DIPANKAR BHATTACHARY\"}"
+    },
+    {
+      "id": 344,
+      "account_id": 1,
+      "date": "1/7/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA S EVERYDAY CHECKING XXXXXX7996 REF #IB0QVHJX9G ON 01/07/25",
+      "amount": 59.0,
+      "note": "nan",
+      "category": "Transfers:Family:Spouse",
+      "raw_data": "{\"Date\": \"1/7/2025\", \"Amount\": \"59.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA S EVERYDAY CHECKING XXXXXX7996 REF #IB0QVHJX9G ON 01/07/25\"}"
+    },
+    {
+      "id": 345,
+      "account_id": 1,
+      "date": "1/7/2025",
+      "description": "ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0QVH6G84 ON 01/06/25",
+      "amount": 2000.0,
+      "note": "nan",
+      "category": "Transfers:InternalTransfer",
+      "raw_data": "{\"Date\": \"1/7/2025\", \"Amount\": \"2000.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"ONLINE TRANSFER FROM BHATTACHARYYA D EVERYDAY CHECKING XXXXXX1878 REF #IB0QVH6G84 ON 01/06/25\"}"
+    },
+    {
+      "id": 346,
+      "account_id": 1,
+      "date": "1/6/2025",
+      "description": "NSM DBAMR.COOPER NSM DBAMR 250105 6902619 DIPANKAR *BHATTACHARYY",
+      "amount": -2172.19,
+      "note": "nan",
+      "category": "Expenses:Housing:Mortgage",
+      "raw_data": "{\"Date\": \"1/6/2025\", \"Amount\": \"-2172.19\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"NSM DBAMR.COOPER NSM DBAMR 250105 6902619 DIPANKAR *BHATTACHARYY\"}"
+    },
+    {
+      "id": 347,
+      "account_id": 1,
+      "date": "1/6/2025",
+      "description": "SG Real Estate WEB PMTS 010625 5ZH28C Dipankar Bhattacharyya",
+      "amount": -1407.93,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"1/6/2025\", \"Amount\": \"-1407.93\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"SG Real Estate WEB PMTS 010625 5ZH28C Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 348,
+      "account_id": 1,
+      "date": "1/6/2025",
+      "description": "CITIBANK, N.A. DEPOSIT 250105 341585281735822 DIPANKAR BHATTACHARYYA",
+      "amount": -100.0,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"1/6/2025\", \"Amount\": \"-100.0\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"CITIBANK, N.A. DEPOSIT 250105 341585281735822 DIPANKAR BHATTACHARYYA\"}"
+    },
+    {
+      "id": 349,
+      "account_id": 1,
+      "date": "1/6/2025",
+      "description": "AppFolio, Inc. F WEB PMTS 010625 V62MT4 Dipankar Bhattacharyya",
+      "amount": -2.49,
+      "note": "nan",
+      "category": "Transfers:CreditCardPayment",
+      "raw_data": "{\"Date\": \"1/6/2025\", \"Amount\": \"-2.49\", \"Account\": \"WellsChecking\", \"Notes\": \"\", \"Description\": \"AppFolio, Inc. F WEB PMTS 010625 V62MT4 Dipankar Bhattacharyya\"}"
+    },
+    {
+      "id": 350,
+      "account_id": 1,
+      "date": "1/6/2025",
+      "description": "CHECK # 1267",
+      "amount": -158.85,
+      "note": "1267.0",
+      "category": "Expenses:Household",
+      "raw_data": "{\"Date\": \"1/6/2025\", \"Amount\": \"-158.85\", \"Account\": \"WellsChecking\", \"Notes\": \"1267.0\", \"Description\": \"CHECK # 1267\"}"
+    }
+  ]
+}
